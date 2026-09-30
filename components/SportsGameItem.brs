@@ -30,10 +30,10 @@ end sub
 
 sub focusChanged()
     if m.top.focusPercent > 0.5
-        m.cardBg.color = "0x243129FF"
+        m.cardBg.color = "0x201B31FF"
         m.focusLine.visible = true
     else
-        m.cardBg.color = "0x0B1710FF"
+        m.cardBg.color = "0x0E0B17FF"
         m.focusLine.visible = false
     end if
 end sub
