@@ -7,13 +7,13 @@
     <script type="text/brightscript" uri="pkg:/components/ZenixSearchResultItem.brs" />
     <children>
         <Rectangle translation="[5,6]" width="200" height="199" color="0x00000077" />
-        <Rectangle id="focusFrame" width="205" height="205" color="0xF1263CFF" visible="false" />
-        <Rectangle translation="[3,3]" width="199" height="199" color="0x171E2BFF" />
+        <Rectangle id="focusFrame" width="205" height="205" color="0xF126ADFF" visible="false" />
+        <Rectangle translation="[3,3]" width="199" height="199" color="0x171C2BFF" />
         <Poster id="fallbackMark" uri="pkg:/images/intro_mark_faint.png" translation="[63,35]" width="80" height="80" loadDisplayMode="scaleToFit" opacity="0.35" />
         <Poster id="poster" translation="[3,3]" width="199" height="153" loadDisplayMode="scaleToFill" />
-        <Rectangle translation="[3,131]" width="199" height="69" color="0x090D16F2" />
-        <Rectangle translation="[3,131]" width="4" height="69" color="0xF1263CFF" />
-        <Label id="stars" translation="[12,8]" width="180" height="23" color="0xF7DA4FFF" font="font:SmallBoldSystemFont" />
+        <Rectangle translation="[3,131]" width="199" height="69" color="0x090C16F2" />
+        <Rectangle translation="[3,131]" width="4" height="69" color="0xF126ADFF" />
+        <Label id="stars" translation="[12,8]" width="180" height="23" color="0xB14FF7FF" font="font:SmallBoldSystemFont" />
         <Label id="title" translation="[14,151]" width="176" height="42" wrap="true" color="0xFFFFFFFF" font="font:SmallSystemFont" />
     </children>
 </component>
