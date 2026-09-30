@@ -6,13 +6,13 @@
     </interface>
     <script type="text/brightscript" uri="pkg:/components/ZenixEpisodeItem.brs" />
     <children>
-        <Rectangle id="focusFrame" width="252" height="158" color="0xE61F31FF" visible="false" />
-        <Rectangle translation="[3,3]" width="246" height="152" color="0x171C27F2" />
+        <Rectangle id="focusFrame" width="252" height="158" color="0xE61FA4FF" visible="false" />
+        <Rectangle translation="[3,3]" width="246" height="152" color="0x151A27F2" />
         <Poster id="poster" translation="[3,3]" width="246" height="152" loadDisplayMode="scaleToFill" />
         <Rectangle translation="[3,111]" width="246" height="44" color="0x080B12E8" />
         <Label id="title" translation="[12,118]" width="226" height="31" color="0xFFFFFFFF" font="font:SmallBoldSystemFont" />
-        <Rectangle id="progressTrack" translation="[3,151]" width="246" height="4" color="0x343B49FF" visible="false" />
-        <Rectangle id="progressFill" translation="[3,151]" width="0" height="4" color="0xE61F31FF" visible="false" />
+        <Rectangle id="progressTrack" translation="[3,151]" width="246" height="4" color="0x283049FF" visible="false" />
+        <Rectangle id="progressFill" translation="[3,151]" width="0" height="4" color="0xE61FA4FF" visible="false" />
         <Label id="progressText" translation="[183,8]" width="55" height="22" horizAlign="right" color="0xFFFFFFFF" font="font:SmallBoldSystemFont" />
     </children>
 </component>
