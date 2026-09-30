@@ -12,12 +12,12 @@
 
         <!-- PRIVACIDADE -->
         <Group id="consentGroup" visible="false">
-            <Rectangle translation="[160,100]" width="960" height="520" color="0x09130EF8"/>
-            <Rectangle translation="[160,100]" width="7" height="520" color="0x147DFFFF"/>
+            <Rectangle translation="[160,100]" width="960" height="520" color="0x0C0913F8"/>
+            <Rectangle translation="[160,100]" width="7" height="520" color="0x144FFFFF"/>
             <Poster uri="pkg:/images/logo.png" width="205" height="58" translation="[205,125]" loadDisplayMode="scaleToFit"/>
             <Label text="Privacidade e Termos" translation="[205,205]" width="870" height="55" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
-            <Label text="Para usar o Youcinema, leia e aceite a Política de Privacidade e os Termos de Uso. O aplicativo gera um identificador local para esta instalação e o utiliza somente para ativação, segurança e funcionamento da conta." translation="[205,285]" width="850" height="135" wrap="true" color="0xD5DED8FF" font="font:MediumSystemFont"/>
-            <Label text="A política completa está disponível no portal Youcinema." translation="[205,430]" width="850" height="34" color="0x9BA4B6FF" font="font:SmallSystemFont"/>
+            <Label text="Para usar o Strimo VU, leia e aceite a Política de Privacidade e os Termos de Uso. O aplicativo gera um identificador local para esta instalação e o utiliza somente para ativação, segurança e funcionamento da conta." translation="[205,285]" width="850" height="135" wrap="true" color="0xD5DED8FF" font="font:MediumSystemFont"/>
+            <Label text="A política completa está disponível no portal Strimo VU." translation="[205,430]" width="850" height="34" color="0x6479B6FF" font="font:SmallSystemFont"/>
             <Button id="consentAccept" text="Aceitar e continuar" translation="[205,505]" minWidth="275"/>
             <Button id="consentExit" text="Sair" translation="[505,505]" minWidth="180"/>
         </Group>
@@ -26,19 +26,19 @@
         <Group id="activationGroup" visible="false">
             <Poster uri="pkg:/images/zenix_bg.png" width="1280" height="720" loadDisplayMode="scaleToFill"/>
             <Rectangle width="1280" height="720" color="0x050811B8"/>
-            <Rectangle translation="[115,72]" width="1050" height="575" color="0x111722F2"/>
+            <Rectangle translation="[115,72]" width="1050" height="575" color="0x111522F2"/>
             <Poster uri="pkg:/images/logo.png" translation="[175,115]" width="155" height="78" loadDisplayMode="scaleToFit"/>
-            <Label translation="[175,210]" width="480" height="55" text="Ative seu Youcinema" font="font:LargeBoldSystemFont" color="0xFFFFFFFF"/>
+            <Label translation="[175,210]" width="480" height="55" text="Ative seu Strimo VU" font="font:LargeBoldSystemFont" color="0xFFFFFFFF"/>
             <Label translation="[175,278]" width="475" height="100" wrap="true" text="Escaneie o QR Code com o celular. No site, escolha o servidor e informe usuário e senha." font="font:MediumSystemFont" color="0xD8DEE9FF"/>
-            <Label id="activationDeviceInfo" translation="[175,405]" width="480" height="70" wrap="true" text="Preparando dispositivo..." font="font:SmallSystemFont" color="0xAEB9C8FF"/>
-            <Label id="activationStatus" translation="[175,492]" width="475" height="45" text="Gerando ativação segura..." font="font:SmallSystemFont" color="0xF3C85BFF"/>
+            <Label id="activationDeviceInfo" translation="[175,405]" width="480" height="70" wrap="true" text="Preparando dispositivo..." font="font:SmallSystemFont" color="0x6E84C8FF"/>
+            <Label id="activationStatus" translation="[175,492]" width="475" height="45" text="Gerando ativação segura..." font="font:SmallSystemFont" color="0xB45BF3FF"/>
             <Rectangle id="activationQrFrame" translation="[765,112]" width="300" height="300" color="0xFFFFFFFF" visible="false"/>
             <Poster id="activationQr" translation="[780,127]" width="270" height="270" loadDisplayMode="scaleToFit" visible="false"/>
             <Label id="activationQrLoading" translation="[780,238]" width="270" height="50" horizAlign="center" text="Gerando QR seguro..." font="font:SmallSystemFont" color="0xD8DEE9FF"/>
             <Rectangle id="activationProviderCard" translation="[705,470]" width="205" height="62" color="0xF2F2F2FF"/>
             <Label id="activationProviderLabel" translation="[705,486]" width="205" height="35" horizAlign="center" text="ENTRAR NA TV" font="font:SmallBoldSystemFont" color="0x111111FF"/>
             <Button id="providerActivationBtn" translation="[705,470]" minWidth="205" maxWidth="205" height="62" opacity="0.01"/>
-            <Rectangle id="activationRefreshCard" translation="[925,470]" width="175" height="62" color="0x202226FF"/>
+            <Rectangle id="activationRefreshCard" translation="[925,470]" width="175" height="62" color="0x151926FF"/>
             <Label id="activationRefreshLabel" translation="[925,486]" width="175" height="35" horizAlign="center" text="VERIFICAR" font="font:SmallBoldSystemFont" color="0xF2F2F2FF"/>
             <Button id="activationRefreshBtn" translation="[925,470]" minWidth="175" maxWidth="175" height="62" opacity="0.01"/>
         </Group>
@@ -49,52 +49,52 @@
             <Rectangle width="1280" height="720" color="0x050811A6"/>
 
             <!-- painel central premium -->
-            <Rectangle translation="[126,84]" width="1028" height="552" color="0x080D16E8"/>
-            <Rectangle translation="[126,84]" width="1028" height="3" color="0x147DFFFF"/>
-            <Rectangle translation="[126,633]" width="1028" height="3" color="0x283244FF"/>
-            <Rectangle translation="[126,84]" width="3" height="552" color="0x283244FF"/>
-            <Rectangle translation="[1151,84]" width="3" height="552" color="0x283244FF"/>
-            <Rectangle translation="[640,118]" width="1" height="470" color="0x30394AFF"/>
+            <Rectangle translation="[126,84]" width="1028" height="552" color="0x080C16E8"/>
+            <Rectangle translation="[126,84]" width="1028" height="3" color="0x144FFFFF"/>
+            <Rectangle translation="[126,633]" width="1028" height="3" color="0x252D44FF"/>
+            <Rectangle translation="[126,84]" width="3" height="552" color="0x252D44FF"/>
+            <Rectangle translation="[1151,84]" width="3" height="552" color="0x252D44FF"/>
+            <Rectangle translation="[640,118]" width="1" height="470" color="0x29314AFF"/>
 
             <!-- lado esquerdo -->
-            <Rectangle translation="[176,132]" width="5" height="32" color="0x147DFFFF"/>
-            <Label id="loginKicker" text="ACESSO SEGURO" translation="[194,135]" width="380" height="30" color="0x3AA7FFFF" font="font:SmallBoldSystemFont"/>
-            <Label id="loginTitle" text="Bem-vindo ao Youcinema" translation="[176,180]" width="430" height="58" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
+            <Rectangle translation="[176,132]" width="5" height="32" color="0x144FFFFF"/>
+            <Label id="loginKicker" text="ACESSO SEGURO" translation="[194,135]" width="380" height="30" color="0x3A6BFFFF" font="font:SmallBoldSystemFont"/>
+            <Label id="loginTitle" text="Bem-vindo ao Strimo VU" translation="[176,180]" width="430" height="58" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
             <Label id="loginIntro" text="Sua experiência de entretenimento começa aqui." translation="[176,250]" width="420" height="62" wrap="true" color="0xE5E9F1FF" font="font:MediumSystemFont"/>
             <Label id="loginInstructions" text="Informe somente o usuário e a senha fornecidos pelo seu serviço. O servidor já está configurado com segurança." translation="[176,330]" width="420" height="112" wrap="true" color="0xC9D1DEFF" font="font:SmallSystemFont"/>
-            <Rectangle translation="[176,466]" width="410" height="1" color="0x30394AFF"/>
-            <Label id="loginNotice" text="Seus dados ficam protegidos e vinculados apenas a este dispositivo." translation="[176,486]" width="255" height="68" wrap="true" color="0x8F9AAEFF" font="font:SmallSystemFont"/>
+            <Rectangle translation="[176,466]" width="410" height="1" color="0x29314AFF"/>
+            <Label id="loginNotice" text="Seus dados ficam protegidos e vinculados apenas a este dispositivo." translation="[176,486]" width="255" height="68" wrap="true" color="0x6073AEFF" font="font:SmallSystemFont"/>
             <Rectangle id="loginSupportCard" translation="[458,454]" width="136" height="136" color="0xFFFFFFFF" visible="false"/>
             <Poster id="loginSupportQrPoster" uri="" translation="[468,464]" width="116" height="116" loadWidth="116" loadHeight="116" loadDisplayMode="scaleToFit" visible="false"/>
-            <Label id="loginSupportLabel" text="CHAME NO WHATSAPP" translation="[430,594]" width="192" height="24" horizAlign="center" color="0x69E39CFF" font="font:SmallBoldSystemFont" visible="false"/>
+            <Label id="loginSupportLabel" text="CHAME NO WHATSAPP" translation="[430,594]" width="192" height="24" horizAlign="center" color="0x8869E3FF" font="font:SmallBoldSystemFont" visible="false"/>
 
             <!-- lado direito: uma única conta, estilo premium -->
             <Poster uri="pkg:/images/logo.png" width="166" height="72" translation="[779,111]" loadDisplayMode="scaleToFit"/>
             <Label text="Entrar na sua conta" translation="[702,188]" width="336" height="38" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-            <Label text="Servidor conectado automaticamente" translation="[702,226]" width="336" height="26" horizAlign="center" color="0x7F8B9EFF" font="font:SmallSystemFont"/>
+            <Label text="Servidor conectado automaticamente" translation="[702,226]" width="336" height="26" horizAlign="center" color="0x57699EFF" font="font:SmallSystemFont"/>
 
             <Rectangle id="providerFieldOutline" translation="[-100,-100]" width="1" height="1" color="0x00000000" visible="false"/>
             <Rectangle id="providerFieldCard" translation="[-100,-100]" width="1" height="1" color="0x00000000" visible="false"/>
             <Button id="providerField" text="" translation="[-100,-100]" minWidth="1" maxWidth="1" height="1" visible="false" opacity="0.0"/>
             <Label id="providerFieldLabel" text="awplay" translation="[-100,-100]" width="1" height="1" visible="false"/>
 
-            <Label text="USUÁRIO" translation="[700,267]" width="336" height="22" color="0x8F9AAEFF" font="font:SmallBoldSystemFont"/>
-            <Rectangle id="usernameFieldOutline" translation="[698,293]" width="340" height="58" color="0x566177FF"/>
-            <Rectangle id="usernameFieldCard" translation="[700,295]" width="336" height="54" color="0x1D2735F8"/>
+            <Label text="USUÁRIO" translation="[700,267]" width="336" height="22" color="0x6073AEFF" font="font:SmallBoldSystemFont"/>
+            <Rectangle id="usernameFieldOutline" translation="[698,293]" width="340" height="58" color="0x414F77FF"/>
+            <Rectangle id="usernameFieldCard" translation="[700,295]" width="336" height="54" color="0x1D2335F8"/>
             <Button id="usernameField" text="" translation="[700,295]" minWidth="336" maxWidth="336" height="54" opacity="0.01"/>
             <Label id="usernameFieldLabel" text="Digite seu usuário" translation="[722,308]" width="292" height="28" color="0xEAF0F8FF" font="font:MediumSystemFont"/>
 
-            <Label text="SENHA" translation="[700,365]" width="336" height="22" color="0x8F9AAEFF" font="font:SmallBoldSystemFont"/>
-            <Rectangle id="passwordFieldOutline" translation="[698,391]" width="340" height="58" color="0x566177FF"/>
-            <Rectangle id="passwordFieldCard" translation="[700,393]" width="336" height="54" color="0x1D2735F8"/>
+            <Label text="SENHA" translation="[700,365]" width="336" height="22" color="0x6073AEFF" font="font:SmallBoldSystemFont"/>
+            <Rectangle id="passwordFieldOutline" translation="[698,391]" width="340" height="58" color="0x414F77FF"/>
+            <Rectangle id="passwordFieldCard" translation="[700,393]" width="336" height="54" color="0x1D2335F8"/>
             <Button id="passwordField" text="" translation="[700,393]" minWidth="336" maxWidth="336" height="54" opacity="0.01"/>
             <Label id="passwordFieldLabel" text="Digite sua senha" translation="[722,406]" width="292" height="28" color="0xEAF0F8FF" font="font:MediumSystemFont"/>
 
-            <Rectangle id="saveAccountBtnOutline" translation="[698,473]" width="340" height="62" color="0x3AA7FFFF"/>
-            <Rectangle id="saveAccountBtnCard" translation="[700,475]" width="336" height="58" color="0x087FE8FF"/>
+            <Rectangle id="saveAccountBtnOutline" translation="[698,473]" width="340" height="62" color="0x3A6BFFFF"/>
+            <Rectangle id="saveAccountBtnCard" translation="[700,475]" width="336" height="58" color="0x0C43E8FF"/>
             <Button id="saveAccountBtn" text="" translation="[700,475]" minWidth="336" maxWidth="336" height="58" opacity="0.01"/>
             <Label id="saveAccountBtnLabel" text="ENTRAR" translation="[700,489]" width="336" height="30" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-            <Label text="CONEXÃO SEGURA YOUCINEMA" translation="[700,548]" width="336" height="24" horizAlign="center" color="0x5BDFFFFF" font="font:SmallSystemFont"/>
+            <Label text="CONEXÃO SEGURA STRIMO VU" translation="[700,548]" width="336" height="24" horizAlign="center" color="0x5B84FFFF" font="font:SmallSystemFont"/>
 
             <!-- ids antigos ficam invisíveis apenas para compatibilidade interna -->
             <Button id="accountSlot1" text="" translation="[-100,-100]" minWidth="1" maxWidth="1" height="1" visible="false" opacity="0.0"/>
@@ -103,7 +103,7 @@
             <Button id="disconnectAccountBtn" text="" translation="[-100,-100]" minWidth="1" height="1" visible="false" opacity="0.0"/>
             <Button id="cancelAccountBtn" text="" translation="[-100,-100]" minWidth="1" height="1" visible="false" opacity="0.0"/>
 
-            <Label id="accountStatus" text="" translation="[675,578]" width="386" height="42" horizAlign="center" wrap="true" color="0xF2C7CCFF" font="font:SmallSystemFont"/>
+            <Label id="accountStatus" text="" translation="[675,578]" width="386" height="42" horizAlign="center" wrap="true" color="0xF285CEFF" font="font:SmallSystemFont"/>
             <Label id="accountDeviceInfo" text="CHAVE DO DISPOSITIVO: ------" translation="[92,680]" width="650" height="22" color="0xE4E8EEFF" font="font:SmallBoldSystemFont"/>
             <Label id="loginAppVersion" text="Versão do aplicativo: 4.6.0" translation="[902,680]" width="286" height="22" horizAlign="right" color="0xE4E8EEFF" font="font:SmallSystemFont"/>
         </Group>
@@ -114,70 +114,70 @@
             <Rectangle width="1280" height="720" color="0x050811B8"/>
 
             <Label text="Minha conta" translation="[72,42]" width="420" height="44" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
-            <Label text="Dados da conta conectada neste dispositivo" translation="[72,88]" width="640" height="30" color="0xAEB8C8FF" font="font:SmallSystemFont"/>
+            <Label text="Dados da conta conectada neste dispositivo" translation="[72,88]" width="640" height="30" color="0x6E84C8FF" font="font:SmallSystemFont"/>
 
-            <Rectangle translation="[70,136]" width="1140" height="476" color="0x111720E8"/>
-            <Rectangle translation="[70,136]" width="1140" height="2" color="0x66748AFF"/>
-            <Rectangle translation="[70,610]" width="1140" height="2" color="0x66748AFF"/>
-            <Rectangle translation="[70,136]" width="2" height="476" color="0x66748AFF"/>
-            <Rectangle translation="[1208,136]" width="2" height="476" color="0x66748AFF"/>
-            <Rectangle translation="[648,168]" width="1" height="330" color="0x3E4655FF"/>
+            <Rectangle translation="[70,136]" width="1140" height="476" color="0x111520E8"/>
+            <Rectangle translation="[70,136]" width="1140" height="2" color="0x4C5B8AFF"/>
+            <Rectangle translation="[70,610]" width="1140" height="2" color="0x4C5B8AFF"/>
+            <Rectangle translation="[70,136]" width="2" height="476" color="0x4C5B8AFF"/>
+            <Rectangle translation="[1208,136]" width="2" height="476" color="0x4C5B8AFF"/>
+            <Rectangle translation="[648,168]" width="1" height="330" color="0x2F3855FF"/>
 
             <Poster uri="pkg:/images/logo.png" width="145" height="60" translation="[98,164]" loadDisplayMode="scaleToFit"/>
 
             <Label text="Informações da conta" translation="[98,238]" width="470" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-            <Label text="Provedor" translation="[98,294]" width="170" height="28" color="0x9FAABDFF" font="font:SmallSystemFont"/>
+            <Label text="Provedor" translation="[98,294]" width="170" height="28" color="0x687DBDFF" font="font:SmallSystemFont"/>
             <Label id="accountInfoProvider" text="--" translation="[270,294]" width="320" height="28" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
-            <Label text="Servidor" translation="[98,338]" width="170" height="28" color="0x9FAABDFF" font="font:SmallSystemFont"/>
+            <Label text="Servidor" translation="[98,338]" width="170" height="28" color="0x687DBDFF" font="font:SmallSystemFont"/>
             <Label id="accountInfoServer" text="--" translation="[270,338]" width="320" height="54" wrap="true" color="0xFFFFFFFF" font="font:SmallSystemFont"/>
-            <Label text="Usuário" translation="[98,402]" width="170" height="28" color="0x9FAABDFF" font="font:SmallSystemFont"/>
+            <Label text="Usuário" translation="[98,402]" width="170" height="28" color="0x687DBDFF" font="font:SmallSystemFont"/>
             <Label id="accountInfoUsername" text="--" translation="[270,402]" width="320" height="28" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
-            <Label text="Senha" translation="[98,446]" width="170" height="28" color="0x9FAABDFF" font="font:SmallSystemFont"/>
+            <Label text="Senha" translation="[98,446]" width="170" height="28" color="0x687DBDFF" font="font:SmallSystemFont"/>
             <Label id="accountInfoPassword" text="********" translation="[270,446]" width="320" height="28" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
-            <Label text="Vencimento" translation="[98,490]" width="170" height="28" color="0x9FAABDFF" font="font:SmallSystemFont"/>
-            <Label id="accountInfoExpiry" text="--" translation="[270,490]" width="330" height="54" wrap="true" color="0xFFD977FF" font="font:SmallSystemFont"/>
+            <Label text="Vencimento" translation="[98,490]" width="170" height="28" color="0x687DBDFF" font="font:SmallSystemFont"/>
+            <Label id="accountInfoExpiry" text="--" translation="[270,490]" width="330" height="54" wrap="true" color="0xC677FFFF" font="font:SmallSystemFont"/>
 
             <Label text="Informações do dispositivo" translation="[690,176]" width="420" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-            <Label text="Estado" translation="[690,238]" width="170" height="28" color="0x9FAABDFF" font="font:SmallSystemFont"/>
-            <Label id="accountInfoState" text="Conectado" translation="[865,238]" width="260" height="28" color="0x67E88DFF" font="font:MediumBoldSystemFont"/>
-            <Label text="Chave" translation="[690,282]" width="170" height="28" color="0x9FAABDFF" font="font:SmallSystemFont"/>
+            <Label text="Estado" translation="[690,238]" width="170" height="28" color="0x687DBDFF" font="font:SmallSystemFont"/>
+            <Label id="accountInfoState" text="Conectado" translation="[865,238]" width="260" height="28" color="0x8767E8FF" font="font:MediumBoldSystemFont"/>
+            <Label text="Chave" translation="[690,282]" width="170" height="28" color="0x687DBDFF" font="font:SmallSystemFont"/>
             <Label id="accountInfoKey" text="------" translation="[865,282]" width="260" height="28" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
-            <Label text="Chave do dispositivo" translation="[690,326]" width="190" height="28" color="0x9FAABDFF" font="font:SmallSystemFont"/>
+            <Label text="Chave do dispositivo" translation="[690,326]" width="190" height="28" color="0x687DBDFF" font="font:SmallSystemFont"/>
             <Label id="accountInfoDeviceId" text="------" translation="[890,326]" width="180" height="28" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-            <Label text="Versão do app" translation="[690,370]" width="170" height="28" color="0x9FAABDFF" font="font:SmallSystemFont"/>
+            <Label text="Versão do app" translation="[690,370]" width="170" height="28" color="0x687DBDFF" font="font:SmallSystemFont"/>
             <Label id="accountInfoVersion" text="4.0.4" translation="[865,370]" width="260" height="28" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
 
-            <Rectangle id="accountInfoDeleteOutline" translation="[688,446]" width="374" height="58" color="0x566177FF"/>
-            <Rectangle id="accountInfoDeleteCard" translation="[690,448]" width="370" height="54" color="0x0B64BEFF"/>
+            <Rectangle id="accountInfoDeleteOutline" translation="[688,446]" width="374" height="58" color="0x414F77FF"/>
+            <Rectangle id="accountInfoDeleteCard" translation="[690,448]" width="370" height="54" color="0x0B38BEFF"/>
             <Button id="accountInfoDeleteBtn" text="" translation="[690,448]" minWidth="370" maxWidth="370" height="54" opacity="0.01"/>
             <Label id="accountInfoDeleteLabel" text="Excluir conta e sair" translation="[690,460]" width="370" height="30" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
-            <Rectangle id="accountInfoBackOutline" translation="[688,516]" width="374" height="54" color="0x566177FF"/>
-            <Rectangle id="accountInfoBackCard" translation="[690,518]" width="370" height="50" color="0x273243EE"/>
+            <Rectangle id="accountInfoBackOutline" translation="[688,516]" width="374" height="54" color="0x414F77FF"/>
+            <Rectangle id="accountInfoBackCard" translation="[690,518]" width="370" height="50" color="0x252C43EE"/>
             <Button id="accountInfoBackBtn" text="" translation="[690,518]" minWidth="370" maxWidth="370" height="50" opacity="0.01"/>
             <Label id="accountInfoBackLabel" text="Voltar" translation="[690,528]" width="370" height="30" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
-            <Label text="Ao excluir, os dados desta conta serão removidos desta TV e o login será exibido novamente." translation="[690,580]" width="430" height="54" wrap="true" color="0xAEB8C8FF" font="font:SmallSystemFont"/>
+            <Label text="Ao excluir, os dados desta conta serão removidos desta TV e o login será exibido novamente." translation="[690,580]" width="430" height="54" wrap="true" color="0x6E84C8FF" font="font:SmallSystemFont"/>
         </Group>
 
         <!-- TECLADO PREMIUM DE LOGIN: modal opaco e senha sempre mascarada. -->
         <Group id="loginKeyboardGroup" visible="false">
             <Rectangle width="1280" height="720" color="0x040710FF"/>
             <Poster uri="pkg:/images/zenix_bg.png" width="1280" height="720" loadDisplayMode="scaleToFill" opacity="0.12"/>
-            <Rectangle translation="[82,58]" width="1116" height="612" color="0x0B111CF8"/>
-            <Rectangle translation="[82,58]" width="1116" height="4" color="0x147DFFFF"/>
-            <Rectangle translation="[82,666]" width="1116" height="4" color="0x283244FF"/>
+            <Rectangle translation="[82,58]" width="1116" height="612" color="0x0B0F1CF8"/>
+            <Rectangle translation="[82,58]" width="1116" height="4" color="0x144FFFFF"/>
+            <Rectangle translation="[82,666]" width="1116" height="4" color="0x252D44FF"/>
             <Poster uri="pkg:/images/logo.png" translation="[112,78]" width="142" height="52" loadDisplayMode="scaleToFit"/>
             <Label id="loginKeyboardTitle" text="Digite seu usuário" translation="[286,76]" width="600" height="42" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
-            <Label id="loginKeyboardModeLabel" text="CAMPO DE USUÁRIO" translation="[286,118]" width="420" height="24" color="0x3AA7FFFF" font="font:SmallBoldSystemFont"/>
-            <Label text="BACK para salvar e voltar" translation="[854,91]" width="300" height="28" horizAlign="right" color="0x8F9AAEFF" font="font:SmallSystemFont"/>
+            <Label id="loginKeyboardModeLabel" text="CAMPO DE USUÁRIO" translation="[286,118]" width="420" height="24" color="0x3A6BFFFF" font="font:SmallBoldSystemFont"/>
+            <Label text="BACK para salvar e voltar" translation="[854,91]" width="300" height="28" horizAlign="right" color="0x6073AEFF" font="font:SmallSystemFont"/>
 
-            <Rectangle translation="[122,160]" width="1036" height="72" color="0x151E2BFF"/>
-            <Rectangle translation="[122,160]" width="5" height="72" color="0x147DFFFF"/>
+            <Rectangle translation="[122,160]" width="1036" height="72" color="0x151B2BFF"/>
+            <Rectangle translation="[122,160]" width="5" height="72" color="0x144FFFFF"/>
             <Label id="loginKeyboardValue" text="" translation="[150,176]" width="970" height="40" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
-            <Rectangle translation="[104,254]" width="1072" height="382" color="0x182433FA"/>
-            <Rectangle translation="[104,254]" width="1072" height="2" color="0x344357FF"/>
+            <Rectangle translation="[104,254]" width="1072" height="382" color="0x181F33FA"/>
+            <Rectangle translation="[104,254]" width="1072" height="2" color="0x303A57FF"/>
             <Keyboard id="loginKeyboard" translation="[145,268]" showTextEditBox="false"
                       keyColor="0xF2F5FAFF" focusedKeyColor="0xFFFFFFFF"
                       focusBitmapUri="pkg:/images/keyboard_focus.9.png"/>
@@ -187,60 +187,60 @@
             <Rectangle width="1280" height="720" color="0x090C14E8"/>
             <Poster uri="pkg:/images/logo.png" width="155" height="46" translation="[42,18]" loadDisplayMode="scaleToFit"/>
             <Label text="Ajustes" translation="[42,78]" width="320" height="42" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
-            <Label id="settingsStatus" text="Conectado" translation="[800,28]" width="160" height="28" horizAlign="right" color="0xFFD27AFF" font="font:SmallSystemFont"/>
+            <Label id="settingsStatus" text="Conectado" translation="[800,28]" width="160" height="28" horizAlign="right" color="0x9B7AFFFF" font="font:SmallSystemFont"/>
             <Label id="settingsAccountInfo" text="--" translation="[970,28]" width="255" height="28" horizAlign="right" color="0xB9C1D0FF" font="font:SmallSystemFont"/>
 
             <!-- linha 1 -->
-            <Rectangle id="settingsCardAccounts" translation="[40,140]" width="275" height="190" color="0x141821E8"/>
+            <Rectangle id="settingsCardAccounts" translation="[40,140]" width="275" height="190" color="0x121621E8"/>
             <Poster uri="pkg:/images/set_account.png" translation="[137,166]" width="80" height="80" loadDisplayMode="scaleToFit"/>
             <Button id="settingsAccounts" text="" translation="[40,140]" minWidth="275" maxWidth="275" height="190" opacity="0.01"/>
             <Label id="settingsLabelAccounts" text="Conta" translation="[60,262]" width="235" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
-            <Rectangle id="settingsCardRefresh" translation="[350,140]" width="275" height="190" color="0x141821E8"/>
+            <Rectangle id="settingsCardRefresh" translation="[350,140]" width="275" height="190" color="0x121621E8"/>
             <Poster uri="pkg:/images/set_refresh.png" translation="[447,166]" width="80" height="80" loadDisplayMode="scaleToFit"/>
             <Button id="settingsRefresh" text="" translation="[350,140]" minWidth="275" maxWidth="275" height="190" opacity="0.01"/>
             <Label id="settingsLabelRefresh" text="Atualizar conteúdos" translation="[370,262]" width="235" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
-            <Rectangle id="settingsCardProgress" translation="[660,140]" width="275" height="190" color="0x141821E8"/>
+            <Rectangle id="settingsCardProgress" translation="[660,140]" width="275" height="190" color="0x121621E8"/>
             <Poster uri="pkg:/images/set_history.png" translation="[757,166]" width="80" height="80" loadDisplayMode="scaleToFit"/>
             <Button id="settingsClearProgress" text="" translation="[660,140]" minWidth="275" maxWidth="275" height="190" opacity="0.01"/>
             <Label id="settingsLabelProgress" text="Limpar histórico" translation="[680,262]" width="235" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
-            <Rectangle id="settingsCardFavorites" translation="[970,140]" width="275" height="190" color="0x141821E8"/>
+            <Rectangle id="settingsCardFavorites" translation="[970,140]" width="275" height="190" color="0x121621E8"/>
             <Poster uri="pkg:/images/set_favorites.png" translation="[1067,166]" width="80" height="80" loadDisplayMode="scaleToFit"/>
             <Button id="settingsClearFavorites" text="" translation="[970,140]" minWidth="275" maxWidth="275" height="190" opacity="0.01"/>
             <Label id="settingsLabelFavorites" text="Limpar favoritos" translation="[990,262]" width="235" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
             <!-- linha 2 -->
-            <Rectangle id="settingsCardPrivacy" translation="[40,360]" width="275" height="190" color="0x141821E8"/>
+            <Rectangle id="settingsCardPrivacy" translation="[40,360]" width="275" height="190" color="0x121621E8"/>
             <Poster uri="pkg:/images/set_privacy.png" translation="[137,386]" width="80" height="80" loadDisplayMode="scaleToFit"/>
             <Button id="settingsPrivacy" text="" translation="[40,360]" minWidth="275" maxWidth="275" height="190" opacity="0.01"/>
             <Label id="settingsLabelPrivacy" text="Privacidade" translation="[60,482]" width="235" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
-            <Rectangle id="settingsCardAbout" translation="[350,360]" width="275" height="190" color="0x141821E8"/>
+            <Rectangle id="settingsCardAbout" translation="[350,360]" width="275" height="190" color="0x121621E8"/>
             <Poster uri="pkg:/images/set_about.png" translation="[447,386]" width="80" height="80" loadDisplayMode="scaleToFit"/>
             <Button id="settingsAbout" text="" translation="[350,360]" minWidth="275" maxWidth="275" height="190" opacity="0.01"/>
             <Label id="settingsLabelAbout" text="Informações gerais" translation="[370,482]" width="235" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
-            <Rectangle id="settingsCardBack" translation="[660,360]" width="275" height="190" color="0x141821E8"/>
+            <Rectangle id="settingsCardBack" translation="[660,360]" width="275" height="190" color="0x121621E8"/>
             <Poster uri="pkg:/images/set_back.png" translation="[757,386]" width="80" height="80" loadDisplayMode="scaleToFit"/>
             <Button id="settingsBack" text="" translation="[660,360]" minWidth="275" maxWidth="275" height="190" opacity="0.01"/>
             <Label id="settingsLabelBack" text="Voltar" translation="[680,482]" width="235" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
-            <Rectangle id="settingsCardFormat" translation="[970,360]" width="275" height="190" color="0x141821E8"/>
+            <Rectangle id="settingsCardFormat" translation="[970,360]" width="275" height="190" color="0x121621E8"/>
             <Poster uri="pkg:/images/set_format.png" translation="[1067,386]" width="80" height="80" loadDisplayMode="scaleToFit"/>
             <Button id="settingsOutputFormat" text="" translation="[970,360]" minWidth="275" maxWidth="275" height="190" opacity="0.01"/>
             <Label id="settingsLabelFormat" text="Formatos de saída" translation="[990,482]" width="235" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
             <!-- informações em uma faixa discreta no rodapé -->
-            <Rectangle translation="[40,585]" width="1205" height="82" color="0x111620E8"/>
-            <Label text="DISPOSITIVO" translation="[62,598]" width="110" height="20" color="0xFF5B6EFF" font="font:SmallSystemFont"/>
-            <Label text="CHAVE DO DISPOSITIVO" translation="[62,629]" width="210" height="20" color="0x9BA4B6FF" font="font:SmallBoldSystemFont"/>
+            <Rectangle translation="[40,585]" width="1205" height="82" color="0x111520E8"/>
+            <Label text="DISPOSITIVO" translation="[62,598]" width="110" height="20" color="0xFF5BC8FF" font="font:SmallSystemFont"/>
+            <Label text="CHAVE DO DISPOSITIVO" translation="[62,629]" width="210" height="20" color="0x6479B6FF" font="font:SmallBoldSystemFont"/>
             <Label id="settingsDeviceId" text="" visible="false"/>
             <Label id="settingsDeviceKey" text="------" translation="[280,625]" width="180" height="28" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-            <Label text="Versão" translation="[630,629]" width="58" height="20" color="0x9BA4B6FF" font="font:SmallSystemFont"/>
+            <Label text="Versão" translation="[630,629]" width="58" height="20" color="0x6479B6FF" font="font:SmallSystemFont"/>
             <Label id="settingsVersion" text="4.0.4" translation="[694,629]" width="90" height="20" color="0xFFFFFFFF" font="font:SmallSystemFont"/>
-            <Label id="settingsFormatHint" text="Saída: DEFAULT" translation="[840,629]" width="330" height="20" horizAlign="right" color="0xFFD27AFF" font="font:SmallSystemFont"/>
+            <Label id="settingsFormatHint" text="Saída: DEFAULT" translation="[840,629]" width="330" height="20" horizAlign="right" color="0x9B7AFFFF" font="font:SmallSystemFont"/>
         </Group>
 
         <!-- HOME ZENIX PREMIUM: hero/backdrop dinamico + menu lateral + rail recente -->
@@ -249,93 +249,93 @@
             <Poster uri="pkg:/images/zenix_bg.png" width="1280" height="720" loadDisplayMode="scaleToFill" opacity="0.22"/>
             <Rectangle translation="[0,390]" width="1280" height="330" color="0x070A12B8"/>
 
-            <Rectangle width="1280" height="720" color="0x12020755"/>
+            <Rectangle width="1280" height="720" color="0x12020D55"/>
             <Poster id="logo" uri="pkg:/images/logo.png" width="350" height="118" translation="[465,28]" loadDisplayMode="scaleToFit"/>
             <Label id="homeClock" text="--:--" translation="[1070,24]" width="165" height="40" horizAlign="right" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
-            <Label id="homeDate" text="" translation="[1070,64]" width="165" height="22" horizAlign="right" color="0x9DA7B8FF" font="font:SmallSystemFont"/>
+            <Label id="homeDate" text="" translation="[1070,64]" width="165" height="22" horizAlign="right" color="0x657AB8FF" font="font:SmallSystemFont"/>
             <Label id="homeExpiry" text="Vencimento da lista: --" translation="[34,650]" width="410" height="26" color="0xD7DCE5FF" font="font:SmallSystemFont"/>
-            <Rectangle translation="[34,688]" width="9" height="9" color="0x43D17AFF"/>
-            <Label id="homeStatus" text="Conectado" translation="[52,680]" width="430" height="26" color="0xAEB8C8FF" font="font:SmallSystemFont"/>
+            <Rectangle translation="[34,688]" width="9" height="9" color="0x6643D1FF"/>
+            <Label id="homeStatus" text="Conectado" translation="[52,680]" width="430" height="26" color="0x6E84C8FF" font="font:SmallSystemFont"/>
 
             <!-- Home simplificada: três acessos principais grandes, estilo TV-first -->
             <Group translation="[35,166]">
                 <Label text="ESCOLHA COMO DESEJA ASSISTIR" translation="[0,0]" width="1210" height="28" horizAlign="center" color="0xB9C1CEFF" font="font:SmallBoldSystemFont"/>
 
                 <Rectangle translation="[5,45]" width="210" height="190" color="0x00000077"/>
-                <Rectangle id="homeCardLive" translation="[0,38]" width="210" height="190" color="0x10141DDD"/>
+                <Rectangle id="homeCardLive" translation="[0,38]" width="210" height="190" color="0x10131DDD"/>
                 <Poster uri="pkg:/images/home_live.png" translation="[55,78]" width="100" height="100" loadDisplayMode="scaleToFit"/>
                 <Button id="homeLive" text="" translation="[0,38]" minWidth="210" maxWidth="210" height="190" opacity="0.01"/>
                 <Label id="homeLabelLive" text="TV AO VIVO" translation="[0,240]" width="210" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
                 <Rectangle translation="[250,45]" width="210" height="190" color="0x00000077"/>
-                <Rectangle id="homeCardMovies" translation="[245,38]" width="210" height="190" color="0x10141DDD"/>
+                <Rectangle id="homeCardMovies" translation="[245,38]" width="210" height="190" color="0x10131DDD"/>
                 <Poster uri="pkg:/images/home_movies.png" translation="[300,78]" width="100" height="100" loadDisplayMode="scaleToFit"/>
                 <Button id="homeMovies" text="" translation="[245,38]" minWidth="210" maxWidth="210" height="190" opacity="0.01"/>
                 <Label id="homeLabelMovies" text="FILMES" translation="[245,240]" width="210" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
                 <Rectangle translation="[495,45]" width="210" height="190" color="0x00000077"/>
-                <Rectangle id="homeCardSeries" translation="[490,38]" width="210" height="190" color="0x10141DDD"/>
+                <Rectangle id="homeCardSeries" translation="[490,38]" width="210" height="190" color="0x10131DDD"/>
                 <Poster uri="pkg:/images/home_series.png" translation="[545,78]" width="100" height="100" loadDisplayMode="scaleToFit"/>
                 <Button id="homeSeries" text="" translation="[490,38]" minWidth="210" maxWidth="210" height="190" opacity="0.01"/>
                 <Label id="homeLabelSeries" text="SÉRIES" translation="[490,240]" width="210" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
                 <Rectangle translation="[740,45]" width="210" height="190" color="0x00000077"/>
-                <Rectangle id="homeCardKids" translation="[735,38]" width="210" height="190" color="0x171128DD"/>
+                <Rectangle id="homeCardKids" translation="[735,38]" width="210" height="190" color="0x1B1128DD"/>
                 <Poster uri="pkg:/images/home_kids.png" translation="[780,68]" width="120" height="120" loadDisplayMode="scaleToFit"/>
                 <Button id="homeKids" text="" translation="[735,38]" minWidth="210" maxWidth="210" height="190" opacity="0.01"/>
                 <Label id="homeLabelKids" text="KIDS PREMIUM" translation="[735,240]" width="210" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
                 <Rectangle translation="[985,45]" width="210" height="190" color="0x00000077"/>
-                <Rectangle id="homeCardSports" translation="[980,38]" width="210" height="190" color="0x10141DDD"/>
+                <Rectangle id="homeCardSports" translation="[980,38]" width="210" height="190" color="0x10131DDD"/>
                 <Poster uri="pkg:/images/home_sports.png" translation="[1035,78]" width="100" height="100" loadDisplayMode="scaleToFit"/>
                 <Button id="homeSports" text="" translation="[980,38]" minWidth="210" maxWidth="210" height="190" opacity="0.01"/>
                 <Label id="homeLabelSports" text="ESPORTES" translation="[980,240]" width="210" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
 
-                <Rectangle id="homeCardAccount" translation="[60,304]" width="260" height="74" color="0x111620E8"/>
+                <Rectangle id="homeCardAccount" translation="[60,304]" width="260" height="74" color="0x111520E8"/>
                 <Poster uri="pkg:/images/home_users.png" translation="[76,315]" width="52" height="52" loadDisplayMode="scaleToFit"/>
                 <Button id="homeAccount" text="" translation="[60,304]" minWidth="260" maxWidth="260" height="74" opacity="0.01"/>
                 <Label id="homeLabelAccount" text="MINHA CONTA" translation="[140,325]" width="165" height="32" color="0xFFFFFFFF" font="font:SmallBoldSystemFont"/>
 
-                <Rectangle id="homeCardSettings" translation="[335,304]" width="260" height="74" color="0x111620E8"/>
+                <Rectangle id="homeCardSettings" translation="[335,304]" width="260" height="74" color="0x111520E8"/>
                 <Poster uri="pkg:/images/home_settings.png" translation="[351,315]" width="52" height="52" loadDisplayMode="scaleToFit"/>
                 <Button id="homeSettings" text="" translation="[335,304]" minWidth="260" maxWidth="260" height="74" opacity="0.01"/>
                 <Label id="homeLabelSettings" text="AJUSTES" translation="[415,325]" width="165" height="32" color="0xFFFFFFFF" font="font:SmallBoldSystemFont"/>
 
-                <Rectangle id="homeCardRefresh" translation="[610,304]" width="260" height="74" color="0x111620E8"/>
+                <Rectangle id="homeCardRefresh" translation="[610,304]" width="260" height="74" color="0x111520E8"/>
                 <Poster uri="pkg:/images/home_refresh.png" translation="[626,315]" width="52" height="52" loadDisplayMode="scaleToFit"/>
                 <Button id="homeRefresh" text="" translation="[610,304]" minWidth="260" maxWidth="260" height="74" opacity="0.01"/>
                 <Label id="homeLabelRefresh" text="ATUALIZAR" translation="[690,325]" width="165" height="32" color="0xD8DEE9FF" font="font:SmallBoldSystemFont"/>
 
-                <Rectangle id="homeCardSupport" translation="[885,284]" width="305" height="130" color="0x10251CEF" visible="false"/>
+                <Rectangle id="homeCardSupport" translation="[885,284]" width="305" height="130" color="0x151025EF" visible="false"/>
                 <Poster id="homeSupportIcon" uri="pkg:/images/home_users.png" translation="[902,330]" width="48" height="48" loadDisplayMode="scaleToFit" visible="false"/>
                 <Poster id="homeSupportQrPoster" uri="" translation="[1055,293]" width="112" height="112" loadWidth="112" loadHeight="112" loadDisplayMode="scaleToFit" visible="false"/>
                 <Button id="homeSupport" text="" translation="[885,284]" minWidth="305" maxWidth="305" height="130" opacity="0.01" visible="false"/>
-                <Label id="homeLabelSupport" text="WHATSAPP" translation="[900,296]" width="145" height="32" color="0x69E39CFF" font="font:SmallBoldSystemFont" visible="false"/>
+                <Label id="homeLabelSupport" text="WHATSAPP" translation="[900,296]" width="145" height="32" color="0x8869E3FF" font="font:SmallBoldSystemFont" visible="false"/>
                 <Label id="homeSupportHint" text="APONTE A CÂMERA" translation="[900,380]" width="145" height="24" color="0xCFE8DAFF" font="font:SmallSystemFont" visible="false"/>
             </Group>
 
             <!-- HERO / PREVIEW grande -->
             <Group id="homeHeroGroup" translation="[274,92]" visible="false">
-                <Rectangle translation="[-3,-3]" width="985" height="403" color="0x30394AFF"/>
-                <Rectangle width="979" height="397" color="0x0B101BFF"/>
+                <Rectangle translation="[-3,-3]" width="985" height="403" color="0x29314AFF"/>
+                <Rectangle width="979" height="397" color="0x0B0F1BFF"/>
                 <Poster id="homeHeroBackdrop" uri="pkg:/images/home_hero.png" width="979" height="397" loadDisplayMode="scaleToFill"/>
                 <Rectangle width="979" height="397" color="0x00000050"/>
-                <Rectangle width="625" height="397" color="0x050813D0"/>
+                <Rectangle width="625" height="397" color="0x050913D0"/>
                 <Rectangle translation="[0,322]" width="979" height="75" color="0x070A12E0"/>
 
-                <Rectangle translation="[34,30]" width="5" height="28" color="0xF1243BFF"/>
-                <Label id="homeHeroBadge" text="DESTAQUE" translation="[50,31]" width="280" height="28" color="0x3AA7FFFF" font="font:SmallBoldSystemFont"/>
-                <Label id="homeHeroTitle" text="Youcinema" translation="[34,67]" width="575" height="72" wrap="true" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
+                <Rectangle translation="[34,30]" width="5" height="28" color="0xF124ADFF"/>
+                <Label id="homeHeroBadge" text="DESTAQUE" translation="[50,31]" width="280" height="28" color="0x3A6BFFFF" font="font:SmallBoldSystemFont"/>
+                <Label id="homeHeroTitle" text="Strimo VU" translation="[34,67]" width="575" height="72" wrap="true" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
                 <Label id="homeHeroGenres" text="" translation="[35,143]" width="555" height="26" color="0xC7D0DEFF" font="font:SmallSystemFont"/>
-                <Label id="homeHeroFacts" text="" translation="[35,174]" width="555" height="30" color="0xF6D869FF" font="font:SmallBoldSystemFont"/>
+                <Label id="homeHeroFacts" text="" translation="[35,174]" width="555" height="30" color="0xBB69F6FF" font="font:SmallBoldSystemFont"/>
                 <Label id="homeHeroOverview" text="Escolha um conteúdo recente para visualizar os detalhes." translation="[35,213]" width="555" height="72" wrap="true" color="0xE5EAF2FF" font="font:SmallSystemFont"/>
 
                 <!-- Ação direta do destaque: visual próprio para não usar o Button padrão Roku -->
-                <Rectangle id="homeHeroPlayBorder" translation="[34,304]" width="202" height="50" color="0x3AA7FFFF"/>
-                <Rectangle id="homeHeroPlayFill" translation="[36,306]" width="198" height="46" color="0x087FE8FF"/>
+                <Rectangle id="homeHeroPlayBorder" translation="[34,304]" width="202" height="50" color="0x3A6BFFFF"/>
+                <Rectangle id="homeHeroPlayFill" translation="[36,306]" width="198" height="46" color="0x0C43E8FF"/>
                 <Label id="homeHeroPlayLabel" text="Assistir agora" translation="[52,314]" width="166" height="30" horizAlign="center" color="0xFFFFFFFF" font="font:SmallBoldSystemFont"/>
                 <Button id="homeHeroPlayBtn" text="" translation="[34,304]" minWidth="202" maxWidth="202" height="50" opacity="0.01"/>
-                <Label id="homeHeroHint" text="OK para assistir   ·   ↓ para explorar" translation="[256,315]" width="350" height="30" color="0xAEB8C8FF" font="font:SmallSystemFont"/>
+                <Label id="homeHeroHint" text="OK para assistir   ·   ↓ para explorar" translation="[256,315]" width="350" height="30" color="0x6E84C8FF" font="font:SmallSystemFont"/>
                 <Rectangle translation="[716,39]" width="206" height="309" color="0x060910D8"/>
                 <Poster id="homeHeroPoster" uri="" translation="[724,47]" width="190" height="293" loadDisplayMode="scaleToFill" visible="false"/>
             </Group>
@@ -353,7 +353,7 @@
                 <Label id="continueProgress" text=""/>
                 <Button id="continueBtn" text="Continuar" visible="false"/>
                 <Poster id="homeHeroBg" uri="pkg:/images/home_hero.png"/>
-                <Label id="heroTitle" text="Youcinema"/>
+                <Label id="heroTitle" text="Strimo VU"/>
                 <Label id="heroMeta" text=""/>
                 <Label id="heroSubtitle" text=""/>
                 <Button id="heroPlay" text="Assistir agora"/>
@@ -365,13 +365,13 @@
         <Group id="supportGroup" visible="false">
             <Poster uri="pkg:/images/zenix_bg.png" width="1280" height="720" loadDisplayMode="scaleToFill"/>
             <Rectangle width="1280" height="720" color="0x050811E8"/>
-            <Rectangle translation="[170,82]" width="940" height="556" color="0x101722F5"/>
-            <Rectangle translation="[170,82]" width="8" height="556" color="0x25D366FF"/>
+            <Rectangle translation="[170,82]" width="940" height="556" color="0x101422F5"/>
+            <Rectangle translation="[170,82]" width="8" height="556" color="0x5125D3FF"/>
             <Poster uri="pkg:/images/logo.png" translation="[220,112]" width="180" height="66" loadDisplayMode="scaleToFit"/>
             <Label text="SUPORTE PELO WHATSAPP" translation="[220,204]" width="500" height="46" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
             <Label text="Escaneie o QR Code com a câmera do celular para iniciar o atendimento." translation="[220,270]" width="490" height="92" wrap="true" color="0xD8DEE9FF" font="font:MediumSystemFont"/>
-            <Label id="supportPhoneLabel" text="" translation="[220,380]" width="490" height="38" color="0x69E39CFF" font="font:MediumBoldSystemFont"/>
-            <Label text="O WhatsApp abrirá com a mensagem configurada pelo atendimento Youcinema." translation="[220,438]" width="490" height="72" wrap="true" color="0x9EABBDFF" font="font:SmallSystemFont"/>
+            <Label id="supportPhoneLabel" text="" translation="[220,380]" width="490" height="38" color="0x8869E3FF" font="font:MediumBoldSystemFont"/>
+            <Label text="O WhatsApp abrirá com a mensagem configurada pelo atendimento Strimo VU." translation="[220,438]" width="490" height="72" wrap="true" color="0x687DBDFF" font="font:SmallSystemFont"/>
             <Rectangle translation="[760,132]" width="300" height="300" color="0xFFFFFFFF"/>
             <Poster id="supportQrPoster" uri="" translation="[774,146]" width="272" height="272" loadWidth="272" loadHeight="272" loadDisplayMode="scaleToFit"/>
             <Button id="supportBack" text="Voltar" translation="[220,548]" minWidth="220" height="54"/>
@@ -381,8 +381,8 @@
         <Group id="catalogGroup" visible="false">
             <Rectangle width="1280" height="720" color="0x070A11F2"/>
             <Poster uri="pkg:/images/zenix_bg.png" width="1280" height="720" loadDisplayMode="scaleToFill" opacity="0.16"/>
-            <Rectangle translation="[0,0]" width="1280" height="88" color="0x080C14FA"/>
-            <Rectangle translation="[0,87]" width="1280" height="1" color="0x293143FF"/>
+            <Rectangle translation="[0,0]" width="1280" height="88" color="0x080B14FA"/>
+            <Rectangle translation="[0,87]" width="1280" height="1" color="0x252C43FF"/>
 
             <Poster uri="pkg:/images/logo.png" width="150" height="54" translation="[24,16]" loadDisplayMode="scaleToFit"/>
             <!-- Navegação de retorno fica no botão BACK do controle. Evita o Button padrão da Roku que aparecia como bolinha + texto cortado. -->
@@ -396,21 +396,21 @@
             <Button id="catalogNextPage" text="Próxima" translation="[980,22]" minWidth="125" height="48" visible="false"/>
             <ZenixPageGrid id="catalogPageGrid" itemComponentName="ZenixPageItem" translation="[105,22]" itemSize="[30,44]" itemSpacing="[3,0]" numColumns="7" numRows="1" drawFocusFeedback="false" visible="false"/>
 
-            <Rectangle translation="[342,15]" width="908" height="58" color="0x131B28F2"/>
-            <Rectangle translation="[342,15]" width="5" height="58" color="0x147DFFFF"/>
+            <Rectangle translation="[342,15]" width="908" height="58" color="0x131828F2"/>
+            <Rectangle translation="[342,15]" width="5" height="58" color="0x144FFFFF"/>
             <Label id="catalogItemsTitle" text="Explore seu catálogo" translation="[370,27]" width="500" height="36" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-            <Rectangle translation="[900,25]" width="150" height="36" color="0x202A39FF"/>
+            <Rectangle translation="[900,25]" width="150" height="36" color="0x1F2639FF"/>
             <Label id="catalogCount" text="" translation="[912,31]" width="126" height="28" horizAlign="center" color="0xC8D0DCFF" font="font:SmallBoldSystemFont"/>
             <Label id="catalogClock" text="--:--" translation="[1090,20]" width="135" height="42" horizAlign="right" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
 
             <Label id="catalogTitle" text="Categorias" translation="[30,103]" width="300" height="35" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-            <Label text="CATEGORIAS" translation="[30,137]" width="280" height="22" color="0x78859AFF" font="font:SmallBoldSystemFont"/>
-            <Rectangle translation="[20,164]" width="320" height="536" color="0x0E141FDC"/>
+            <Label text="CATEGORIAS" translation="[30,137]" width="280" height="22" color="0x55669AFF" font="font:SmallBoldSystemFont"/>
+            <Rectangle translation="[20,164]" width="320" height="536" color="0x0E121FDC"/>
             <MarkupGrid id="categoryList" itemComponentName="ZenixSidebarItem" translation="[23,169]" itemSize="[315,54]" itemSpacing="[0,4]" numColumns="1" numRows="9" drawFocusFeedback="false"/>
 
             <Group id="catalogQuickMenu" visible="false">
-                <Rectangle translation="[20,92]" width="320" height="330" color="0x0B111BF8"/>
-                <Rectangle translation="[20,92]" width="320" height="4" color="0x147DFFFF"/>
+                <Rectangle translation="[20,92]" width="320" height="330" color="0x0B0F1BF8"/>
+                <Rectangle translation="[20,92]" width="320" height="4" color="0x144FFFFF"/>
                 <Label text="ACESSO RÁPIDO" translation="[38,112]" width="280" height="30" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
                 <MarkupGrid id="quickMenuList" itemComponentName="ZenixSidebarItem" translation="[23,157]" itemSize="[315,54]" itemSpacing="[0,4]" numColumns="1" numRows="4" drawFocusFeedback="false"/>
                 <Label text="↓ Categorias   ·   → Conteúdos" translation="[38,393]" width="280" height="22" color="0xB8C1D0FF" font="font:SmallSystemFont"/>
@@ -420,11 +420,11 @@
 
             <!-- Busca inline: ocupa o lugar das categorias e preserva os resultados à direita -->
             <Group id="catalogInlineSearch" visible="false">
-                <Rectangle translation="[20,92]" width="320" height="608" color="0x0B111BF8"/>
-                <Rectangle translation="[20,92]" width="320" height="4" color="0x147DFFFF"/>
+                <Rectangle translation="[20,92]" width="320" height="608" color="0x0B0F1BF8"/>
+                <Rectangle translation="[20,92]" width="320" height="4" color="0x144FFFFF"/>
                 <Label text="BUSCAR" translation="[36,108]" width="280" height="28" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-                <Rectangle translation="[34,145]" width="292" height="52" color="0x202A3BFF"/>
-                <Rectangle translation="[34,145]" width="4" height="52" color="0x147DFFFF"/>
+                <Rectangle translation="[34,145]" width="292" height="52" color="0x20273BFF"/>
+                <Rectangle translation="[34,145]" width="4" height="52" color="0x144FFFFF"/>
                 <Label id="inlineSearchQuery" text="Digite para pesquisar" translation="[50,156]" width="258" height="31" color="0xFFFFFFFF" font="font:SmallBoldSystemFont"/>
                 <ZenixSearchKeyboardGrid id="inlineSearchKeyboard" itemComponentName="SearchKeyItem" translation="[35,214]" itemSize="[43,43]" itemSpacing="[6,6]" numColumns="6" numRows="7" vertFocusAnimationStyle="floatingFocus" drawFocusFeedback="false"/>
                 <Label text="BACK  Ver categorias" translation="[38,650]" width="280" height="24" horizAlign="center" color="0xB8C1D0FF" font="font:SmallSystemFont"/>
@@ -432,48 +432,48 @@
 
             <!-- AO VIVO: lista + mini player + EPG -->
             <Group id="liveLayout" visible="false">
-    <Label text="CANAIS" translation="[365,106]" width="390" height="26" color="0x8995A8FF" font="font:SmallBoldSystemFont"/>
-    <Rectangle translation="[355,138]" width="415" height="562" color="0x0E151FF0"/>
+    <Label text="CANAIS" translation="[365,106]" width="390" height="26" color="0x5C6FA8FF" font="font:SmallBoldSystemFont"/>
+    <Rectangle translation="[355,138]" width="415" height="562" color="0x0E121FF0"/>
     <MarkupGrid id="itemList" itemComponentName="ZenixLiveChannelItem" translation="[358,143]" itemSize="[410,54]" itemSpacing="[0,2]" numColumns="1" numRows="10" drawFocusFeedback="false"/>
 
     <!-- mini player -->
-    <Label text="AGORA NA TV" translation="[790,106]" width="458" height="26" color="0x8995A8FF" font="font:SmallBoldSystemFont"/>
+    <Label text="AGORA NA TV" translation="[790,106]" width="458" height="26" color="0x5C6FA8FF" font="font:SmallBoldSystemFont"/>
     <Rectangle id="previewArea" translation="[790,138]" width="458" height="260" color="0x030509FF"/>
-    <Rectangle translation="[790,138]" width="458" height="3" color="0x147DFFFF"/>
+    <Rectangle translation="[790,138]" width="458" height="3" color="0x144FFFFF"/>
     <Poster uri="pkg:/images/intro_mark_faint.png" translation="[956,190]" width="126" height="100" loadDisplayMode="scaleToFit" opacity="0.22"/>
-    <Label id="previewPlaceholder" text="Selecione um canal e pressione OK" translation="[830,292]" width="378" height="52" horizAlign="center" wrap="true" color="0xAAB4C4FF" font="font:SmallSystemFont"/>
+    <Label id="previewPlaceholder" text="Selecione um canal e pressione OK" translation="[830,292]" width="378" height="52" horizAlign="center" wrap="true" color="0x6C82C4FF" font="font:SmallSystemFont"/>
 
     <!-- channel + EPG card -->
-    <Rectangle translation="[790,414]" width="458" height="272" color="0x131B28F2"/>
-    <Rectangle translation="[790,414]" width="5" height="272" color="0x147DFFFF"/>
+    <Rectangle translation="[790,414]" width="458" height="272" color="0x131828F2"/>
+    <Rectangle translation="[790,414]" width="5" height="272" color="0x144FFFFF"/>
     <Poster id="liveChannelLogo" uri="" translation="[814,432]" width="62" height="62" loadDisplayMode="scaleToFit"/>
     <Label id="liveChannelTitle" text="Canal" translation="[894,426]" width="328" height="38" wrap="false" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-    <Label id="liveChannelCategory" text="" translation="[894,461]" width="328" height="24" wrap="false" color="0xAEB8C8FF" font="font:SmallSystemFont"/>
-    <Label id="liveFavoriteState" text="★  Tecla * para favoritar" translation="[894,487]" width="328" height="22" horizAlign="left" color="0xF5D66FFF" font="font:SmallBoldSystemFont"/>
+    <Label id="liveChannelCategory" text="" translation="[894,461]" width="328" height="24" wrap="false" color="0x6E84C8FF" font="font:SmallSystemFont"/>
+    <Label id="liveFavoriteState" text="★  Tecla * para favoritar" translation="[894,487]" width="328" height="22" horizAlign="left" color="0xBD6FF5FF" font="font:SmallBoldSystemFont"/>
     <!-- kept only for compatibility with existing code; favoriting is via Options/* -->
     <Button id="liveFavoriteBtn" text="Favoritar" translation="[1180,470]" minWidth="1" maxWidth="1" height="1" visible="false" opacity="0.0"/>
 
-    <Rectangle translation="[812,521]" width="410" height="1" color="0x3A4559FF"/>
-    <Label text="AGORA" translation="[812,533]" width="88" height="22" color="0x3AA7FFFF" font="font:SmallBoldSystemFont"/>
+    <Rectangle translation="[812,521]" width="410" height="1" color="0x313B59FF"/>
+    <Label text="AGORA" translation="[812,533]" width="88" height="22" color="0x3A6BFFFF" font="font:SmallBoldSystemFont"/>
     <Label id="liveNowTime" text="" translation="[1100,531]" width="122" height="24" horizAlign="right" color="0xC9D0DCFF" font="font:SmallBoldSystemFont"/>
     <Label id="liveNow" text="Programação não informada" translation="[812,557]" width="410" height="38" wrap="true" color="0xFFFFFFFF" font="font:SmallSystemFont"/>
 
-    <Rectangle translation="[812,606]" width="410" height="1" color="0x343D4FFF"/>
-    <Label text="A SEGUIR" translation="[812,617]" width="110" height="22" color="0xF5D66FFF" font="font:SmallBoldSystemFont"/>
+    <Rectangle translation="[812,606]" width="410" height="1" color="0x2B344FFF"/>
+    <Label text="A SEGUIR" translation="[812,617]" width="110" height="22" color="0xBD6FF5FF" font="font:SmallBoldSystemFont"/>
     <Label id="liveNextTime" text="" translation="[1100,615]" width="122" height="24" horizAlign="right" color="0xB8C0CEFF" font="font:SmallSystemFont"/>
     <Label id="liveNext" text="Programação não informada" translation="[812,640]" width="410" height="30" wrap="true" color="0xD8DEE8FF" font="font:SmallSystemFont"/>
-    <Label id="liveHelp" text="OK tela cheia   ·   * favoritar" translation="[812,670]" width="410" height="18" horizAlign="right" color="0x8F9AAEFF" font="font:SmallSystemFont" visible="true"/>
+    <Label id="liveHelp" text="OK tela cheia   ·   * favoritar" translation="[812,670]" width="410" height="18" horizAlign="right" color="0x6073AEFF" font="font:SmallSystemFont" visible="true"/>
 </Group><!-- FILMES/SÉRIES: poster cards 4x2 como a referência -->
             <Group id="vodLayout" visible="false">
-                <Rectangle translation="[355,98]" width="895" height="602" color="0x090E17C8"/>
-                <Label text="SELECIONE UM TÍTULO" translation="[370,108]" width="500" height="24" color="0x7F8B9EFF" font="font:SmallBoldSystemFont"/>
+                <Rectangle translation="[355,98]" width="895" height="602" color="0x090C17C8"/>
+                <Label text="SELECIONE UM TÍTULO" translation="[370,108]" width="500" height="24" color="0x57699EFF" font="font:SmallBoldSystemFont"/>
                 <PagedMarkupGrid id="itemGrid" itemComponentName="ZenixPosterItem" translation="[365,139]" itemSize="[205,260]" itemSpacing="[16,12]" numColumns="4" numRows="2" drawFocusFeedback="false"/>
-                <Rectangle translation="[355,669]" width="895" height="51" color="0x0B101AF8"/>
-                <Rectangle translation="[355,669]" width="5" height="51" color="0x147DFFFF"/>
+                <Rectangle translation="[355,669]" width="895" height="51" color="0x0B0F1AF8"/>
+                <Rectangle translation="[355,669]" width="5" height="51" color="0x144FFFFF"/>
                 <Label id="vodHelp" text="OK para abrir" translation="[378,682]" width="820" height="28" color="0xB7C0CFFF" font="font:SmallSystemFont"/>
 
                 <Group id="catalogPaginationGroup" visible="false">
-                    <Rectangle translation="[355,657]" width="895" height="56" color="0x101722F2"/>
+                    <Rectangle translation="[355,657]" width="895" height="56" color="0x101422F2"/>
                     <Button id="pagePrevBottom" text="Anterior" translation="[370,662]" minWidth="110" maxWidth="110" height="45"/>
                     <Button id="pageNum1" text="1" translation="[486,662]" minWidth="66" maxWidth="66" height="45"/>
                     <Button id="pageNum2" text="2" translation="[556,662]" minWidth="66" maxWidth="66" height="45"/>
@@ -485,22 +485,22 @@
                 </Group>
             </Group>
 
-            <!-- YOUCINEMA KIDS: universo visual próprio, colorido e familiar -->
+            <!-- STRIMO VU KIDS: universo visual próprio, colorido e familiar -->
             <Group id="kidsLayout" visible="false">
-                <Rectangle translation="[355,98]" width="895" height="602" color="0x100D25F2"/>
-                <Rectangle translation="[355,98]" width="895" height="112" color="0x2A1E5CF5"/>
-                <Rectangle translation="[355,98]" width="12" height="112" color="0xFFD84DFF"/>
-                <Rectangle translation="[367,98]" width="9" height="112" color="0x54D6EFFF"/>
-                <Rectangle translation="[1120,98]" width="130" height="112" color="0x7B4DFFFF"/>
+                <Rectangle translation="[355,98]" width="895" height="602" color="0x170D25F2"/>
+                <Rectangle translation="[355,98]" width="895" height="112" color="0x381E5CF5"/>
+                <Rectangle translation="[355,98]" width="12" height="112" color="0xB54DFFFF"/>
+                <Rectangle translation="[367,98]" width="9" height="112" color="0x547BEFFF"/>
+                <Rectangle translation="[1120,98]" width="130" height="112" color="0x974DFFFF"/>
                 <Label text="MUNDO KIDS" translation="[402,119]" width="430" height="44" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
-                <Label text="Histórias, aventuras e muita imaginação" translation="[404,163]" width="520" height="28" color="0xD9D2FFFF" font="font:SmallSystemFont"/>
-                <Label text="★  ★  ★" translation="[1090,132]" width="135" height="35" horizAlign="center" color="0xFFE45CFF" font="font:MediumBoldSystemFont"/>
+                <Label text="Histórias, aventuras e muita imaginação" translation="[404,163]" width="520" height="28" color="0xBC8CFFFF" font="font:SmallSystemFont"/>
+                <Label text="★  ★  ★" translation="[1090,132]" width="135" height="35" horizAlign="center" color="0xBB5CFFFF" font="font:MediumBoldSystemFont"/>
 
-                <Label text="ESCOLHA UMA DIVERSÃO" translation="[370,221]" width="430" height="26" color="0xB8AFFFFF" font="font:SmallBoldSystemFont"/>
+                <Label text="ESCOLHA UMA DIVERSÃO" translation="[370,221]" width="430" height="26" color="0xBC8CFFFF" font="font:SmallBoldSystemFont"/>
                 <PagedMarkupGrid id="kidsGrid" itemComponentName="ZenixKidsItem" translation="[365,254]" itemSize="[205,205]" itemSpacing="[16,12]" numColumns="4" numRows="2" drawFocusFeedback="false"/>
 
-                <Rectangle translation="[355,676]" width="895" height="44" color="0x17122DF8"/>
-                <Rectangle translation="[355,676]" width="7" height="44" color="0xFFD84DFF"/>
+                <Rectangle translation="[355,676]" width="895" height="44" color="0x1D122DF8"/>
+                <Rectangle translation="[355,676]" width="7" height="44" color="0xB54DFFFF"/>
                 <Label id="kidsHelp" text="OK para abrir uma aventura" translation="[382,685]" width="820" height="27" color="0xDED9F5FF" font="font:SmallSystemFont"/>
             </Group>
 
@@ -514,17 +514,17 @@
                 <Poster uri="pkg:/images/logo.png" width="58" height="54" translation="[24,18]" loadDisplayMode="scaleToFit"/>
                 <Label id="seriesTitleBig" text="Série" translation="[92,28]" width="760" height="50" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
                 <Label id="seriesGenresBig" text="" translation="[92,88]" width="700" height="28" color="0xE7EBF2FF" font="font:SmallSystemFont"/>
-                <Label id="seriesFactsBig" text="" translation="[92,121]" width="700" height="30" color="0xFFE94BFF" font="font:MediumBoldSystemFont"/>
+                <Label id="seriesFactsBig" text="" translation="[92,121]" width="700" height="30" color="0xB44BFFFF" font="font:MediumBoldSystemFont"/>
                 <Label id="seriesPlotBig" text="" translation="[92,162]" width="690" height="102" wrap="true" color="0xF1F3F7FF" font="font:SmallSystemFont"/>
 
                 <!-- ações da série -->
-                <Rectangle id="seriesStartOutline" translation="[92,278]" width="170" height="48" color="0x8D99ABFF"/>
-                <Rectangle id="seriesStartCard" translation="[94,280]" width="166" height="44" color="0x111722E8"/>
+                <Rectangle id="seriesStartOutline" translation="[92,278]" width="170" height="48" color="0x5E71ABFF"/>
+                <Rectangle id="seriesStartCard" translation="[94,280]" width="166" height="44" color="0x111522E8"/>
                 <Label id="seriesStartLabel" text="Iniciar" translation="[94,287]" width="166" height="30" horizAlign="center" color="0xFFFFFFFF" font="font:SmallBoldSystemFont"/>
                 <Button id="seriesStartBtn" text="Iniciar" translation="[92,278]" minWidth="170" maxWidth="170" height="48" opacity="0.01"/>
 
-                <Rectangle id="seriesFavoriteOutline" translation="[278,278]" width="190" height="48" color="0x8D99ABFF"/>
-                <Rectangle id="seriesFavoriteCard" translation="[280,280]" width="186" height="44" color="0x111722E8"/>
+                <Rectangle id="seriesFavoriteOutline" translation="[278,278]" width="190" height="48" color="0x5E71ABFF"/>
+                <Rectangle id="seriesFavoriteCard" translation="[280,280]" width="186" height="44" color="0x111522E8"/>
                 <Label id="seriesFavoriteLabel" text="Favoritar" translation="[280,287]" width="186" height="30" horizAlign="center" color="0xFFFFFFFF" font="font:SmallBoldSystemFont"/>
                 <Button id="seriesFavoriteBtn" text="Favoritar" translation="[278,278]" minWidth="190" maxWidth="190" height="48" opacity="0.01"/>
 
@@ -567,29 +567,29 @@
 
             <Label id="detailTitle" text="Título" translation="[82,54]" width="720" height="82" wrap="true" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
             <Label id="detailGenres" text="" translation="[82,142]" width="700" height="28" color="0xE8ECF3FF" font="font:SmallSystemFont"/>
-            <Label id="detailFacts" text="" translation="[82,176]" width="700" height="32" color="0xFFE66CFF" font="font:SmallBoldSystemFont"/>
+            <Label id="detailFacts" text="" translation="[82,176]" width="700" height="32" color="0xC26CFFFF" font="font:SmallBoldSystemFont"/>
             <Label id="detailMeta" text="" translation="[82,210]" width="700" height="25" color="0xBFC7D5FF" font="font:SmallSystemFont"/>
             <Label id="detailOverview" text="Carregando informações..." translation="[82,242]" width="695" height="112" wrap="true" color="0xFFFFFFFF" font="font:SmallSystemFont"/>
 
             <!-- botões desenhados pelo Zenix; Button invisível serve apenas para foco e clique -->
-            <Rectangle id="detailPrimaryOutline" translation="[82,370]" width="172" height="48" color="0x8D99ABFF"/>
-            <Rectangle id="detailPrimaryCard" translation="[84,372]" width="168" height="44" color="0x111722E8"/>
+            <Rectangle id="detailPrimaryOutline" translation="[82,370]" width="172" height="48" color="0x5E71ABFF"/>
+            <Rectangle id="detailPrimaryCard" translation="[84,372]" width="168" height="44" color="0x111522E8"/>
             <Button id="detailPrimary" text="Iniciar" translation="[82,370]" minWidth="172" maxWidth="172" height="48" opacity="0.01"/>
             <Label id="detailPrimaryLabel" text="Iniciar" translation="[96,380]" width="144" height="28" horizAlign="center" color="0xFFFFFFFF" font="font:SmallBoldSystemFont"/>
 
-            <Rectangle id="detailContinueOutline" translation="[268,370]" width="196" height="48" color="0x8D99ABFF" visible="false"/>
-            <Rectangle id="detailContinueCard" translation="[270,372]" width="192" height="44" color="0x111722E8" visible="false"/>
+            <Rectangle id="detailContinueOutline" translation="[268,370]" width="196" height="48" color="0x5E71ABFF" visible="false"/>
+            <Rectangle id="detailContinueCard" translation="[270,372]" width="192" height="44" color="0x111522E8" visible="false"/>
             <Button id="detailContinue" text="Continuar" translation="[268,370]" minWidth="196" maxWidth="196" height="48" visible="false" opacity="0.01"/>
             <Label id="detailContinueLabel" text="Continuar" translation="[282,380]" width="168" height="28" horizAlign="center" color="0xFFFFFFFF" font="font:SmallBoldSystemFont" visible="false"/>
 
-            <Rectangle id="detailFavoriteOutline" translation="[478,370]" width="184" height="48" color="0x8D99ABFF"/>
-            <Rectangle id="detailFavoriteCard" translation="[480,372]" width="180" height="44" color="0x111722E8"/>
+            <Rectangle id="detailFavoriteOutline" translation="[478,370]" width="184" height="48" color="0x5E71ABFF"/>
+            <Rectangle id="detailFavoriteCard" translation="[480,372]" width="180" height="44" color="0x111522E8"/>
             <Button id="detailFavorite" text="Favoritar" translation="[478,370]" minWidth="184" maxWidth="184" height="48" opacity="0.01"/>
             <Label id="detailFavoriteLabel" text="Favoritar" translation="[492,380]" width="156" height="28" horizAlign="center" color="0xFFFFFFFF" font="font:SmallBoldSystemFont"/>
 
             <Label id="detailProgressLabel" text="" translation="[82,428]" width="580" height="22" color="0xD8DEE8FF" font="font:SmallSystemFont"/>
-            <Rectangle id="detailProgressTrack" translation="[82,456]" width="580" height="6" color="0x313847D8" visible="false"/>
-            <Rectangle id="detailProgressFill" translation="[82,456]" width="0" height="6" color="0xE61F31FF" visible="false"/>
+            <Rectangle id="detailProgressTrack" translation="[82,456]" width="580" height="6" color="0x272F47D8" visible="false"/>
+            <Rectangle id="detailProgressFill" translation="[82,456]" width="0" height="6" color="0xE61FA4FF" visible="false"/>
 
             <Label id="detailSimilarTitle" text="Filmes semelhantes" translation="[82,486]" width="500" height="30" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
             <MarkupGrid id="detailSimilarGrid" itemComponentName="ZenixSimilarItem" translation="[82,526]" itemSize="[174,154]" itemSpacing="[14,0]" numColumns="6" numRows="1" drawFocusFeedback="false"/>
@@ -603,42 +603,42 @@
         <Group id="searchGroup" visible="false">
             <Poster uri="pkg:/images/zenix_bg.png" width="1280" height="720" loadDisplayMode="scaleToFill" opacity="0.3"/>
             <Rectangle width="1280" height="720" color="0x060911E8"/>
-            <Rectangle translation="[0,0]" width="1280" height="92" color="0x080C15FA"/>
-            <Rectangle translation="[0,90]" width="1280" height="2" color="0x2D3546FF"/>
+            <Rectangle translation="[0,0]" width="1280" height="92" color="0x080B15FA"/>
+            <Rectangle translation="[0,90]" width="1280" height="2" color="0x272E46FF"/>
 
             <Poster uri="pkg:/images/logo.png" width="150" height="54" translation="[28,18]" loadDisplayMode="scaleToFit"/>
             <Button id="searchBack" text="Voltar" translation="[0,0]" minWidth="1" maxWidth="1" height="1" visible="false" opacity="0.01"/>
             <Label id="searchClock" text="--:--" translation="[1100,22]" width="135" height="42" horizAlign="right" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
 
-            <Rectangle translation="[210,19]" width="850" height="56" color="0x151C29F5"/>
-            <Rectangle translation="[210,19]" width="5" height="56" color="0x147DFFFF"/>
+            <Rectangle translation="[210,19]" width="850" height="56" color="0x151A29F5"/>
+            <Rectangle translation="[210,19]" width="5" height="56" color="0x144FFFFF"/>
             <Label id="searchQueryText" text="Digite o que deseja encontrar" translation="[238,29]" width="600" height="36" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-            <Label id="searchStatus" text="Comece a digitar" translation="[820,33]" width="215" height="28" horizAlign="right" color="0x99A5B8FF" font="font:SmallSystemFont"/>
+            <Label id="searchStatus" text="Comece a digitar" translation="[820,33]" width="215" height="28" horizAlign="right" color="0x657AB8FF" font="font:SmallSystemFont"/>
 
-            <Rectangle translation="[30,112]" width="430" height="558" color="0x0D131EF2"/>
-            <Rectangle translation="[30,112]" width="430" height="3" color="0x147DFFFF"/>
+            <Rectangle translation="[30,112]" width="430" height="558" color="0x0D111EF2"/>
+            <Rectangle translation="[30,112]" width="430" height="3" color="0x144FFFFF"/>
             <Label id="searchTitle" text="Buscar filmes" translation="[55,132]" width="375" height="38" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
-            <Label text="Use OK para digitar" translation="[55,174]" width="360" height="26" color="0x909BADFF" font="font:SmallSystemFont"/>
+            <Label text="Use OK para digitar" translation="[55,174]" width="360" height="26" color="0x5F73ADFF" font="font:SmallSystemFont"/>
             <ZenixSearchKeyboardGrid id="searchKeyGrid" itemComponentName="SearchKeyItem" translation="[52,215]" itemSize="[57,52]" itemSpacing="[7,7]" numColumns="6" numRows="7" vertFocusAnimationStyle="floatingFocus" drawFocusFeedback="false"/>
-            <Label text="BACK  Voltar" translation="[55,638]" width="170" height="22" color="0xAAB2C2FF" font="font:SmallSystemFont"/>
-            <Label text="DIREITA  Resultados" translation="[235,638]" width="190" height="22" horizAlign="right" color="0xF5C960FF" font="font:SmallSystemFont"/>
+            <Label text="BACK  Voltar" translation="[55,638]" width="170" height="22" color="0x6B81C2FF" font="font:SmallSystemFont"/>
+            <Label text="DIREITA  Resultados" translation="[235,638]" width="190" height="22" horizAlign="right" color="0xB760F5FF" font="font:SmallSystemFont"/>
 
-            <Rectangle translation="[480,112]" width="770" height="558" color="0x090E17E8"/>
-            <Rectangle translation="[480,112]" width="770" height="3" color="0x30394AFF"/>
+            <Rectangle translation="[480,112]" width="770" height="558" color="0x090C17E8"/>
+            <Rectangle translation="[480,112]" width="770" height="3" color="0x29314AFF"/>
             <Label text="RESULTADOS" translation="[505,132]" width="300" height="34" color="0xDDE4EFFF" font="font:MediumBoldSystemFont"/>
             <ZenixSearchResultsGrid id="searchResultsGrid" itemComponentName="ZenixSearchResultItem" translation="[505,188]" itemSize="[205,205]" itemSpacing="[25,18]" numColumns="3" numRows="2" vertFocusAnimationStyle="floatingFocus" drawFocusFeedback="false"/>
-            <Label text="Selecione uma capa e pressione OK para abrir" translation="[505,638]" width="600" height="24" color="0x8F9AAEFF" font="font:SmallSystemFont"/>
+            <Label text="Selecione uma capa e pressione OK para abrir" translation="[505,638]" width="600" height="24" color="0x6073AEFF" font="font:SmallSystemFont"/>
         </Group>
 
         <!-- ESCOLHA CONTINUAR / COMEÇAR DO ZERO -->
         <Group id="resumeGroup" visible="false">
             <Rectangle width="1280" height="720" color="0x000000CC"/>
-            <Rectangle translation="[285,185]" width="710" height="340" color="0x111620F5"/>
-            <Rectangle translation="[285,185]" width="7" height="340" color="0x147DFFFF"/>
+            <Rectangle translation="[285,185]" width="710" height="340" color="0x111520F5"/>
+            <Rectangle translation="[285,185]" width="7" height="340" color="0x144FFFFF"/>
             <Label id="resumeTitle" text="Continuar assistindo?" translation="[330,225]" width="620" height="52" wrap="true" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
             <Label id="resumeInfo" text="Você já começou este conteúdo." translation="[330,292]" width="620" height="35" color="0xD7DCE6FF" font="font:MediumSystemFont"/>
-            <Rectangle translation="[330,345]" width="610" height="10" color="0x2A3040FF"/>
-            <Rectangle id="resumeProgressFill" translation="[330,345]" width="0" height="10" color="0x147DFFFF"/>
+            <Rectangle translation="[330,345]" width="610" height="10" color="0x232A40FF"/>
+            <Rectangle id="resumeProgressFill" translation="[330,345]" width="0" height="10" color="0x144FFFFF"/>
             <Button id="resumeContinueBtn" text="Continuar de onde parou" translation="[330,395]" minWidth="285"/>
             <Button id="resumeRestartBtn" text="Assistir do início" translation="[635,395]" minWidth="245"/>
             <Button id="resumeCancelBtn" text="Cancelar" translation="[330,465]" minWidth="180"/>
@@ -646,8 +646,8 @@
 
         <!-- ESPORTES PREMIUM COM CARDS -->
         <Group id="sportsGroup" visible="false">
-            <Rectangle width="1280" height="90" color="0x020503FF"/>
-            <Rectangle translation="[0,88]" width="1280" height="1" color="0x434B60FF"/>
+            <Rectangle width="1280" height="90" color="0x030205FF"/>
+            <Rectangle translation="[0,88]" width="1280" height="1" color="0x354060FF"/>
             <Button id="sportsBack" text="Início" translation="[25,22]" minWidth="130"/>
             <Label text="Esportes Premium" translation="[185,26]" width="420" height="42" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
             <Poster uri="pkg:/images/logo.png" width="135" height="38" translation="[1100,24]" loadDisplayMode="scaleToFit"/>
@@ -655,14 +655,14 @@
             <Label text="Jogos de hoje" translation="[30,100]" width="350" height="32" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
             <MarkupGrid id="sportsGrid" itemComponentName="SportsGameItem" translation="[25,138]" itemSize="[820,100]" itemSpacing="[0,10]" numColumns="1" numRows="5" drawFocusFeedback="false"/>
 
-            <Rectangle translation="[870,115]" width="385" height="570" color="0x111620E8"/>
+            <Rectangle translation="[870,115]" width="385" height="570" color="0x111520E8"/>
             <Poster id="sportsLeagueLogo" uri="" translation="[895,140]" width="58" height="58" loadDisplayMode="scaleToFit"/>
             <Label id="sportsSelectedTitle" text="Selecione um jogo" translation="[970,140]" width="255" height="62" wrap="true" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
             <Label id="sportsSelectedMeta" text="" translation="[895,205]" width="330" height="48" wrap="true" color="0xB8C0CEFF" font="font:SmallSystemFont"/>
-            <Rectangle translation="[895,265]" width="330" height="1" color="0x343B4EFF"/>
+            <Rectangle translation="[895,265]" width="330" height="1" color="0x2B344EFF"/>
             <Label text="Canais disponíveis" translation="[895,282]" width="300" height="32" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-            <LabelList id="sportsChannels" translation="[895,325]" itemSize="[315,50]" numRows="6" color="0xFFFFFFFF" focusedColor="0xFF5B6EFF"/>
-            <Label id="sportsHint" text="Selecione um jogo para ver os canais." translation="[895,640]" width="325" height="34" wrap="true" color="0x9BA4B6FF" font="font:SmallSystemFont"/>
+            <LabelList id="sportsChannels" translation="[895,325]" itemSize="[315,50]" numRows="6" color="0xFFFFFFFF" focusedColor="0xFF5BC8FF"/>
+            <Label id="sportsHint" text="Selecione um jogo para ver os canais." translation="[895,640]" width="325" height="34" wrap="true" color="0x6479B6FF" font="font:SmallSystemFont"/>
         </Group>
 
         <!-- INFORMAÇÕES GERAIS no estilo premium da referência -->
@@ -671,19 +671,19 @@
             <Label text="Informações do fornecedor" translation="[95,62]" width="480" height="40" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
             <Label text="Informações da conta" translation="[650,62]" width="480" height="40" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
 
-            <Rectangle translation="[90,116]" width="505" height="58" color="0x17202DDC"/><Label text="Nome da marca" translation="[115,128]" width="220" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoProviderName" text="Youcinema" translation="[350,128]" width="220" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
-            <Rectangle translation="[90,188]" width="505" height="58" color="0x17202DDC"/><Label text="E-mail" translation="[115,200]" width="220" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label text="-" translation="[350,200]" width="220" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
-            <Rectangle translation="[90,260]" width="505" height="58" color="0x17202DDC"/><Label text="Telefone" translation="[115,272]" width="220" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label text="-" translation="[350,272]" width="220" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
+            <Rectangle translation="[90,116]" width="505" height="58" color="0x171D2DDC"/><Label text="Nome da marca" translation="[115,128]" width="220" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoProviderName" text="Strimo VU" translation="[350,128]" width="220" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
+            <Rectangle translation="[90,188]" width="505" height="58" color="0x171D2DDC"/><Label text="E-mail" translation="[115,200]" width="220" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label text="-" translation="[350,200]" width="220" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
+            <Rectangle translation="[90,260]" width="505" height="58" color="0x171D2DDC"/><Label text="Telefone" translation="[115,272]" width="220" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label text="-" translation="[350,272]" width="220" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
 
             <Label text="Informações do dispositivo" translation="[95,340]" width="480" height="40" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
-            <Rectangle translation="[90,394]" width="505" height="58" color="0x17202DDC"/><Label text="Estado" translation="[115,406]" width="220" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoDeviceStatus" text="Ativo" translation="[350,406]" width="220" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
-            <Rectangle translation="[90,466]" width="505" height="58" color="0x17202DDC"/><Label text="Plataforma" translation="[115,478]" width="220" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label text="Roku" translation="[350,478]" width="220" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
-            <Rectangle translation="[90,538]" width="505" height="58" color="0x17202DDC"/><Label text="Vencimento do dispositivo" translation="[115,550]" width="280" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoDeviceExpiry" text="Gerenciado pelo painel" translation="[390,550]" width="180" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:SmallSystemFont"/>
+            <Rectangle translation="[90,394]" width="505" height="58" color="0x171D2DDC"/><Label text="Estado" translation="[115,406]" width="220" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoDeviceStatus" text="Ativo" translation="[350,406]" width="220" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
+            <Rectangle translation="[90,466]" width="505" height="58" color="0x171D2DDC"/><Label text="Plataforma" translation="[115,478]" width="220" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label text="Roku" translation="[350,478]" width="220" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
+            <Rectangle translation="[90,538]" width="505" height="58" color="0x171D2DDC"/><Label text="Vencimento do dispositivo" translation="[115,550]" width="280" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoDeviceExpiry" text="Gerenciado pelo painel" translation="[390,550]" width="180" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:SmallSystemFont"/>
 
-            <Rectangle translation="[645,116]" width="545" height="58" color="0x17202DDC"/><Label text="Estado" translation="[670,128]" width="250" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoAccountStatus" text="Active" translation="[930,128]" width="230" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
-            <Rectangle translation="[645,188]" width="545" height="58" color="0x17202DDC"/><Label text="Nome de usuário" translation="[670,200]" width="250" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoUsername" text="--" translation="[930,200]" width="230" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
-            <Rectangle translation="[645,260]" width="545" height="58" color="0x17202DDC"/><Label text="Senha" translation="[670,272]" width="250" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoPassword" text="••••••" translation="[930,272]" width="230" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
-            <Rectangle translation="[645,332]" width="545" height="58" color="0x17202DDC"/><Label text="Vencimento da lista" translation="[670,344]" width="275" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoPlaylistExpiry" text="--" translation="[945,344]" width="215" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
+            <Rectangle translation="[645,116]" width="545" height="58" color="0x171D2DDC"/><Label text="Estado" translation="[670,128]" width="250" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoAccountStatus" text="Active" translation="[930,128]" width="230" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
+            <Rectangle translation="[645,188]" width="545" height="58" color="0x171D2DDC"/><Label text="Nome de usuário" translation="[670,200]" width="250" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoUsername" text="--" translation="[930,200]" width="230" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
+            <Rectangle translation="[645,260]" width="545" height="58" color="0x171D2DDC"/><Label text="Senha" translation="[670,272]" width="250" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoPassword" text="••••••" translation="[930,272]" width="230" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
+            <Rectangle translation="[645,332]" width="545" height="58" color="0x171D2DDC"/><Label text="Vencimento da lista" translation="[670,344]" width="275" height="34" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="infoPlaylistExpiry" text="--" translation="[945,344]" width="215" height="34" horizAlign="right" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
             <Button id="infoAccountBtn" text="Alterar lista de reprodução" translation="[645,408]" minWidth="545" maxWidth="545" height="56"/>
             <Button id="infoBack" text="Voltar" translation="[645,480]" minWidth="220" height="52"/>
 
@@ -696,15 +696,15 @@
             <Rectangle width="1280" height="720" color="0x090C14EE"/>
             <Label text="Formato de saída selecionado" translation="[405,170]" width="470" height="42" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
 
-            <Rectangle id="fmtDefaultCard" translation="[395,235]" width="490" height="76" color="0x263142E8"/>
+            <Rectangle id="fmtDefaultCard" translation="[395,235]" width="490" height="76" color="0x242C42E8"/>
             <Button id="fmtDefaultBtn" text="" translation="[395,235]" minWidth="490" maxWidth="490" height="76" opacity="0.01"/>
             <Label text="DEFAULT" translation="[420,253]" width="300" height="38" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="fmtDefaultCheck" text="OK" translation="[820,248]" width="42" height="42" horizAlign="center" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
 
-            <Rectangle id="fmtM3U8Card" translation="[395,327]" width="490" height="76" color="0x263142E8"/>
+            <Rectangle id="fmtM3U8Card" translation="[395,327]" width="490" height="76" color="0x242C42E8"/>
             <Button id="fmtM3U8Btn" text="" translation="[395,327]" minWidth="490" maxWidth="490" height="76" opacity="0.01"/>
             <Label text="M3U8" translation="[420,345]" width="300" height="38" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="fmtM3U8Check" text="OK" translation="[820,340]" width="42" height="42" horizAlign="center" color="0xFFFFFFFF" font="font:LargeBoldSystemFont" visible="false"/>
 
-            <Rectangle id="fmtTSCard" translation="[395,419]" width="490" height="76" color="0x263142E8"/>
+            <Rectangle id="fmtTSCard" translation="[395,419]" width="490" height="76" color="0x242C42E8"/>
             <Button id="fmtTSBtn" text="" translation="[395,419]" minWidth="490" maxWidth="490" height="76" opacity="0.01"/>
             <Label text="TS" translation="[420,437]" width="300" height="38" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/><Label id="fmtTSCheck" text="OK" translation="[820,432]" width="42" height="42" horizAlign="center" color="0xFFFFFFFF" font="font:LargeBoldSystemFont" visible="false"/>
             <Button id="fmtBackBtn" text="Voltar" translation="[535,530]" minWidth="210" height="52"/>
@@ -716,63 +716,63 @@
         <Group id="expiredGroup" visible="false">
             <Poster uri="pkg:/images/zenix_bg.png" width="1280" height="720" loadDisplayMode="scaleToFill"/>
             <Rectangle width="1280" height="720" color="0x050811E8"/>
-            <Rectangle translation="[178,96]" width="924" height="528" color="0x101620F2"/>
-            <Rectangle translation="[178,96]" width="8" height="528" color="0x147DFFFF"/>
-            <Rectangle translation="[178,96]" width="924" height="2" color="0x8793A8FF"/>
-            <Rectangle translation="[178,622]" width="924" height="2" color="0x8793A8FF"/>
+            <Rectangle translation="[178,96]" width="924" height="528" color="0x101420F2"/>
+            <Rectangle translation="[178,96]" width="8" height="528" color="0x144FFFFF"/>
+            <Rectangle translation="[178,96]" width="924" height="2" color="0x5C6FA8FF"/>
+            <Rectangle translation="[178,622]" width="924" height="2" color="0x5C6FA8FF"/>
             <Poster uri="pkg:/images/logo.png" translation="[222,126]" width="150" height="54" loadDisplayMode="scaleToFit"/>
             <Label id="expiredTitle" text="CONTA EXPIRADA" translation="[222,204]" width="610" height="56" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
             <Label id="expiredMessage" text="Sua lista de reprodução venceu e o acesso aos conteúdos foi temporariamente suspenso." translation="[222,270]" width="585" height="76" wrap="true" color="0xE6EAF1FF" font="font:MediumSystemFont"/>
-            <Label id="expiredContact" text="Entre em contato com seu revendedor para renovar sua conta." translation="[222,360]" width="585" height="58" wrap="true" color="0xFFD977FF" font="font:MediumBoldSystemFont"/>
-            <Label id="expiredWait" text="Assim que a renovação for feita no servidor, o Youcinema libera o acesso automaticamente." translation="[222,426]" width="585" height="72" wrap="true" color="0xAEB8C8FF" font="font:SmallSystemFont"/>
+            <Label id="expiredContact" text="Entre em contato com seu revendedor para renovar sua conta." translation="[222,360]" width="585" height="58" wrap="true" color="0xC677FFFF" font="font:MediumBoldSystemFont"/>
+            <Label id="expiredWait" text="Assim que a renovação for feita no servidor, o Strimo VU libera o acesso automaticamente." translation="[222,426]" width="585" height="72" wrap="true" color="0x6E84C8FF" font="font:SmallSystemFont"/>
 
-            <Rectangle translation="[842,162]" width="210" height="310" color="0x161E2AF2"/>
-            <Label text="STATUS DA CONTA" translation="[862,188]" width="170" height="28" horizAlign="center" color="0xAEB8C8FF" font="font:SmallBoldSystemFont"/>
+            <Rectangle translation="[842,162]" width="210" height="310" color="0x161B2AF2"/>
+            <Label text="STATUS DA CONTA" translation="[862,188]" width="170" height="28" horizAlign="center" color="0x6E84C8FF" font="font:SmallBoldSystemFont"/>
             <BusySpinner id="expiredSpinner" translation="[922,232]" uri="pkg:/images/spinner_ring.png" spinInterval="0.8"/>
-            <Label text="EXPIRADA" translation="[862,308]" width="170" height="34" horizAlign="center" color="0xFF4454FF" font="font:MediumBoldSystemFont"/>
-            <Label text="Provedor" translation="[862,356]" width="170" height="24" color="0x7F8A9DFF" font="font:SmallSystemFont"/>
+            <Label text="EXPIRADA" translation="[862,308]" width="170" height="34" horizAlign="center" color="0xFF44C1FF" font="font:MediumBoldSystemFont"/>
+            <Label text="Provedor" translation="[862,356]" width="170" height="24" color="0x56689DFF" font="font:SmallSystemFont"/>
             <Label id="expiredProvider" text="--" translation="[862,378]" width="170" height="28" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-            <Label text="Vencimento" translation="[862,414]" width="170" height="24" color="0x7F8A9DFF" font="font:SmallSystemFont"/>
+            <Label text="Vencimento" translation="[862,414]" width="170" height="24" color="0x56689DFF" font="font:SmallSystemFont"/>
             <Label id="expiredExpiry" text="--" translation="[862,436]" width="170" height="28" color="0xFFFFFFFF" font="font:SmallBoldSystemFont"/>
 
             <Label id="expiredSupport" text="Fale com seu revendedor" translation="[222,510]" width="585" height="30" color="0xFFFFFFFF" font="font:SmallBoldSystemFont"/>
-            <Label id="expiredAutoStatus" text="Verificação automática a cada 15 segundos" translation="[222,544]" width="585" height="26" color="0x8F9AAEFF" font="font:SmallSystemFont"/>
+            <Label id="expiredAutoStatus" text="Verificação automática a cada 15 segundos" translation="[222,544]" width="585" height="26" color="0x6073AEFF" font="font:SmallSystemFont"/>
 
-            <Rectangle id="expiredCheckOutline" translation="[842,500]" width="210" height="54" color="0x566177FF"/>
-            <Rectangle id="expiredCheckCard" translation="[844,502]" width="206" height="50" color="0x0B64BEFF"/>
+            <Rectangle id="expiredCheckOutline" translation="[842,500]" width="210" height="54" color="0x414F77FF"/>
+            <Rectangle id="expiredCheckCard" translation="[844,502]" width="206" height="50" color="0x0B38BEFF"/>
             <Button id="expiredCheckBtn" text="" translation="[844,502]" minWidth="206" maxWidth="206" height="50" opacity="0.01"/>
             <Label id="expiredCheckLabel" text="Verificar agora" translation="[844,512]" width="206" height="28" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont"/>
-            <Rectangle id="expiredExitOutline" translation="[842,564]" width="210" height="46" color="0x566177FF"/>
-            <Rectangle id="expiredExitCard" translation="[844,566]" width="206" height="42" color="0x273243EE"/>
+            <Rectangle id="expiredExitOutline" translation="[842,564]" width="210" height="46" color="0x414F77FF"/>
+            <Rectangle id="expiredExitCard" translation="[844,566]" width="206" height="42" color="0x252C43EE"/>
             <Button id="expiredExitBtn" text="" translation="[844,566]" minWidth="206" maxWidth="206" height="42" opacity="0.01"/>
             <Label text="Sair" translation="[844,574]" width="206" height="26" horizAlign="center" color="0xFFFFFFFF" font="font:SmallBoldSystemFont"/>
         </Group>
 
         <Group id="providerPickerGroup" visible="false">
-            <Rectangle width="1280" height="720" color="0x03060BDD"/>
+            <Rectangle width="1280" height="720" color="0x03050BDD"/>
             <Poster uri="pkg:/images/zenix_bg.png" width="1280" height="720" loadDisplayMode="scaleToFill" opacity="0.16"/>
-            <Rectangle translation="[205,92]" width="870" height="536" color="0x101620FA"/>
-            <Rectangle translation="[205,92]" width="870" height="2" color="0x8793A8FF"/>
-            <Rectangle translation="[205,626]" width="870" height="2" color="0x8793A8FF"/>
-            <Rectangle translation="[205,92]" width="2" height="536" color="0x8793A8FF"/>
-            <Rectangle translation="[1073,92]" width="2" height="536" color="0x8793A8FF"/>
-            <Rectangle translation="[205,92]" width="8" height="536" color="0x147DFFFF"/>
+            <Rectangle translation="[205,92]" width="870" height="536" color="0x101420FA"/>
+            <Rectangle translation="[205,92]" width="870" height="2" color="0x5C6FA8FF"/>
+            <Rectangle translation="[205,626]" width="870" height="2" color="0x5C6FA8FF"/>
+            <Rectangle translation="[205,92]" width="2" height="536" color="0x5C6FA8FF"/>
+            <Rectangle translation="[1073,92]" width="2" height="536" color="0x5C6FA8FF"/>
+            <Rectangle translation="[205,92]" width="8" height="536" color="0x144FFFFF"/>
             <Poster uri="pkg:/images/logo.png" translation="[235,120]" width="138" height="48" loadDisplayMode="scaleToFit"/>
             <Label text="ESCOLHA SEU PROVEDOR" translation="[390,118]" width="610" height="38" color="0xFFFFFFFF" font="font:LargeBoldSystemFont"/>
-            <Label text="Selecione a parceria que será usada para conectar esta conta." translation="[390,158]" width="610" height="30" color="0xAEB8C8FF" font="font:SmallSystemFont"/>
-            <Rectangle translation="[248,208]" width="784" height="1" color="0x343D4EFF"/>
-            <Label id="providerPickerCount" text="PROVEDORES DISPONÍVEIS" translation="[248,224]" width="420" height="28" color="0xFFD27AFF" font="font:SmallBoldSystemFont"/>
+            <Label text="Selecione a parceria que será usada para conectar esta conta." translation="[390,158]" width="610" height="30" color="0x6E84C8FF" font="font:SmallSystemFont"/>
+            <Rectangle translation="[248,208]" width="784" height="1" color="0x2B344EFF"/>
+            <Label id="providerPickerCount" text="PROVEDORES DISPONÍVEIS" translation="[248,224]" width="420" height="28" color="0x9B7AFFFF" font="font:SmallBoldSystemFont"/>
             <MarkupGrid id="providerPickerGrid" itemComponentName="ZenixProviderItem" translation="[280,270]" itemSize="[720,76]" itemSpacing="[0,10]" numColumns="1" numRows="4" drawFocusFeedback="false"/>
-            <Label text="OK  selecionar     BACK  voltar" translation="[0,586]" width="1280" height="26" horizAlign="center" color="0xAEB8C8FF" font="font:SmallSystemFont"/>
+            <Label text="OK  selecionar     BACK  voltar" translation="[0,586]" width="1280" height="26" horizAlign="center" color="0x6E84C8FF" font="font:SmallSystemFont"/>
         </Group>
 
 
         <!-- ABERTURA PREMIUM ZENIX: fundo claro + marca em relevo + revelação da marca colorida -->
         <Group id="brandSplash" visible="true">
-            <Rectangle width="1280" height="720" color="0x031530FF"/>
+            <Rectangle width="1280" height="720" color="0x030E30FF"/>
             <Poster id="brandSplashGhost" uri="pkg:/images/intro_mark_faint.png" translation="[465,185]" width="350" height="350" loadDisplayMode="scaleToFit" opacity="0.0"/>
             <Poster id="brandSplashLogo" uri="pkg:/images/intro_mark.png" translation="[505,225]" width="270" height="270" loadDisplayMode="scaleToFit" opacity="0.0"/>
-            <Label id="brandSplashTitle" text="YOUCINEMA" translation="[0,500]" width="1280" height="42" horizAlign="center" color="0xFFB31FFF" font="font:LargeBoldSystemFont" opacity="0.0"/>
+            <Label id="brandSplashTitle" text="STRIMO VU" translation="[0,500]" width="1280" height="42" horizAlign="center" color="0x571FFFFF" font="font:LargeBoldSystemFont" opacity="0.0"/>
         </Group>
 
         <Group id="loadingGroup" visible="false">
@@ -784,7 +784,7 @@
         </Group>
 
         <Group id="toastGroup" visible="false">
-            <Rectangle translation="[275,615]" width="730" height="72" color="0x121C29F2"/>
+            <Rectangle translation="[275,615]" width="730" height="72" color="0x121829F2"/>
             <Label id="toastText" text="" translation="[305,632]" width="670" height="42" horizAlign="center" color="0xFFFFFFFF" font="font:MediumSystemFont"/>
         </Group>
 
