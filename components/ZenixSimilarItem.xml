@@ -6,11 +6,11 @@
     </interface>
     <script type="text/brightscript" uri="pkg:/components/ZenixSimilarItem.brs" />
     <children>
-        <Rectangle id="focusFrame" width="174" height="154" color="0xE61F31FF" visible="false" />
-        <Rectangle translation="[3,3]" width="168" height="148" color="0x171C27F2" />
+        <Rectangle id="focusFrame" width="174" height="154" color="0xE61FA4FF" visible="false" />
+        <Rectangle translation="[3,3]" width="168" height="148" color="0x151A27F2" />
         <Poster id="poster" translation="[3,3]" width="168" height="148" loadDisplayMode="scaleToFill" />
         <Rectangle translation="[3,111]" width="168" height="40" color="0x080B12E8" />
-        <Label id="stars" translation="[9,8]" width="154" height="22" color="0xFFE94BFF" font="font:SmallBoldSystemFont" />
+        <Label id="stars" translation="[9,8]" width="154" height="22" color="0xB44BFFFF" font="font:SmallBoldSystemFont" />
         <Label id="title" translation="[9,116]" width="154" height="31" wrap="true" color="0xFFFFFFFF" font="font:SmallSystemFont" />
     </children>
 </component>
