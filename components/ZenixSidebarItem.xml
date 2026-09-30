@@ -6,11 +6,11 @@
     </interface>
     <script type="text/brightscript" uri="pkg:/components/ZenixSidebarItem.brs" />
     <children>
-        <Rectangle id="outer" width="315" height="54" color="0x151C29EE" />
-        <Rectangle id="inner" translation="[1,1]" width="313" height="52" color="0x111722F2" />
-        <Rectangle translation="[16,52]" width="283" height="1" color="0x2D3647FF" />
-        <Rectangle id="focusBg" translation="[1,1]" width="313" height="52" color="0x202A3AF8" visible="false" />
-        <Rectangle id="focusAccent" translation="[1,1]" width="6" height="52" color="0xF1263CFF" visible="false" />
+        <Rectangle id="outer" width="315" height="54" color="0x151A29EE" />
+        <Rectangle id="inner" translation="[1,1]" width="313" height="52" color="0x111522F2" />
+        <Rectangle translation="[16,52]" width="283" height="1" color="0x272F47FF" />
+        <Rectangle id="focusBg" translation="[1,1]" width="313" height="52" color="0x20263AF8" visible="false" />
+        <Rectangle id="focusAccent" translation="[1,1]" width="6" height="52" color="0xF126ADFF" visible="false" />
         <Label id="title" translation="[22,6]" width="274" height="42" vertAlign="center" color="0xDDE3EDFF" font="font:SmallBoldSystemFont" />
     </children>
 </component>
