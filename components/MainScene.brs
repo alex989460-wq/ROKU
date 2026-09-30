@@ -39,7 +39,7 @@ sub init()
     m.expiredTitle = "CONTA EXPIRADA"
     m.expiredMessage = "Sua lista de reprodução venceu e o acesso aos conteúdos foi temporariamente suspenso."
     m.expiredContact = "Entre em contato com seu revendedor para renovar sua conta."
-    m.expiredWait = "Assim que a renovação for feita no servidor, o Youcinema libera o acesso automaticamente."
+    m.expiredWait = "Assim que a renovação for feita no servidor, o Strimo VU libera o acesso automaticamente."
     m.expiredCheckText = "Verificar agora"
     m.expiredAutoSeconds = 15
     m.supportWhatsappEnabled = false
@@ -720,7 +720,7 @@ sub updateActivationVisualState()
         label = m.top.findNode(item.label)
         focused = (btn <> invalid and btn.hasFocus())
         if card <> invalid
-            if focused then card.color = "0xF2F2F2FF" else card.color = "0x202226FF"
+            if focused then card.color = "0xF2F2F2FF" else card.color = "0x151926FF"
         end if
         if label <> invalid
             if focused then label.color = "0x111111FF" else label.color = "0xF2F2F2FF"
@@ -750,7 +750,7 @@ sub applyAppConfig(data as dynamic)
     m.loginConfigLoaded = true
 
     if data.login_kicker <> invalid and sVal(data.login_kicker) <> "" then m.top.findNode("loginKicker").text = sVal(data.login_kicker)
-    m.top.findNode("loginTitle").text = "Bem-vindo ao Youcinema"
+    m.top.findNode("loginTitle").text = "Bem-vindo ao Strimo VU"
     if data.login_intro <> invalid and sVal(data.login_intro) <> "" then m.top.findNode("loginIntro").text = sVal(data.login_intro)
     m.top.findNode("loginInstructions").text = "Informe somente o usuário e a senha fornecidos pelo seu serviço. O servidor já está configurado com segurança."
     if data.login_notice <> invalid and sVal(data.login_notice) <> "" then m.top.findNode("loginNotice").text = sVal(data.login_notice)
@@ -772,7 +772,7 @@ sub applyAppConfig(data as dynamic)
     m.expiredTitle = "CONTA EXPIRADA"
     m.expiredMessage = "Sua lista de reprodução venceu e o acesso aos conteúdos foi temporariamente suspenso."
     m.expiredContact = "Entre em contato com seu revendedor para renovar sua conta."
-    m.expiredWait = "Assim que a renovação for feita no servidor, o Youcinema libera o acesso automaticamente."
+    m.expiredWait = "Assim que a renovação for feita no servidor, o Strimo VU libera o acesso automaticamente."
     m.expiredCheckText = "Verificar agora"
     m.expiredAutoSeconds = 15
     if data.login_status_text <> invalid and sVal(data.login_status_text) <> ""
@@ -830,16 +830,16 @@ sub updateAccountInfoVisualState()
     backOutline = m.top.findNode("accountInfoBackOutline")
 
     if delCard <> invalid
-        if delBtn <> invalid and delBtn.hasFocus() then delCard.color = "0xF02A38FF" else delCard.color = "0x0B64BEFF"
+        if delBtn <> invalid and delBtn.hasFocus() then delCard.color = "0xF02AAEFF" else delCard.color = "0x0B38BEFF"
     end if
     if delOutline <> invalid
-        if delBtn <> invalid and delBtn.hasFocus() then delOutline.color = "0xFFD977FF" else delOutline.color = "0x566177FF"
+        if delBtn <> invalid and delBtn.hasFocus() then delOutline.color = "0xC677FFFF" else delOutline.color = "0x414F77FF"
     end if
     if backCard <> invalid
-        if backBtn <> invalid and backBtn.hasFocus() then backCard.color = "0x334154FF" else backCard.color = "0x273243EE"
+        if backBtn <> invalid and backBtn.hasFocus() then backCard.color = "0x2E3854FF" else backCard.color = "0x252C43EE"
     end if
     if backOutline <> invalid
-        if backBtn <> invalid and backBtn.hasFocus() then backOutline.color = "0xFFD977FF" else backOutline.color = "0x566177FF"
+        if backBtn <> invalid and backBtn.hasFocus() then backOutline.color = "0xC677FFFF" else backOutline.color = "0x414F77FF"
     end if
 end sub
 
@@ -868,7 +868,7 @@ sub showExpiredAccount(data as dynamic, reason as string)
         titleText = "CONTA BLOQUEADA"
         messageText = "O acesso desta conta foi bloqueado ou desativado pelo servidor."
         contactText = "Entre em contato com seu revendedor para liberar sua conta."
-        waitText = "Assim que a conta for ativada novamente, o Youcinema libera o acesso automaticamente."
+        waitText = "Assim que a conta for ativada novamente, o Strimo VU libera o acesso automaticamente."
     else
         titleText = "CONTA VENCIDA"
         messageText = "Sua lista venceu e o acesso aos conteúdos foi temporariamente suspenso."
@@ -927,16 +927,16 @@ sub updateExpiredVisualState()
     exitCard = m.top.findNode("expiredExitCard")
     exitOutline = m.top.findNode("expiredExitOutline")
     if checkCard <> invalid
-        if checkBtn <> invalid and checkBtn.hasFocus() then checkCard.color = "0xF02A38FF" else checkCard.color = "0x0B64BEFF"
+        if checkBtn <> invalid and checkBtn.hasFocus() then checkCard.color = "0xF02AAEFF" else checkCard.color = "0x0B38BEFF"
     end if
     if checkOutline <> invalid
-        if checkBtn <> invalid and checkBtn.hasFocus() then checkOutline.color = "0xFFD977FF" else checkOutline.color = "0x566177FF"
+        if checkBtn <> invalid and checkBtn.hasFocus() then checkOutline.color = "0xC677FFFF" else checkOutline.color = "0x414F77FF"
     end if
     if exitCard <> invalid
-        if exitBtn <> invalid and exitBtn.hasFocus() then exitCard.color = "0x334154FF" else exitCard.color = "0x273243EE"
+        if exitBtn <> invalid and exitBtn.hasFocus() then exitCard.color = "0x2E3854FF" else exitCard.color = "0x252C43EE"
     end if
     if exitOutline <> invalid
-        if exitBtn <> invalid and exitBtn.hasFocus() then exitOutline.color = "0xFFD977FF" else exitOutline.color = "0x566177FF"
+        if exitBtn <> invalid and exitBtn.hasFocus() then exitOutline.color = "0xC677FFFF" else exitOutline.color = "0x414F77FF"
     end if
 end sub
 
@@ -1003,7 +1003,7 @@ sub showAccount()
     m.selectedAccountSlot = 1
     m.providerId = m.defaultProvider
     if m.providerId = "" then m.providerId = "awplay"
-    m.providerName = "Youcinema"
+    m.providerName = "Strimo VU"
     ' Login sempre abre limpo: nunca reaproveita usuário/senha antigos.
     m.username = ""
     m.password = ""
@@ -1017,10 +1017,10 @@ end sub
 
 sub updateAccountVisualState()
     defs = [
-        { btn: "providerField", card: "providerFieldCard", label: "providerFieldLabel", outline: "providerFieldOutline", normal: "0x273243EE", focused: "0x273243EE" },
-        { btn: "usernameField", card: "usernameFieldCard", label: "usernameFieldLabel", outline: "usernameFieldOutline", normal: "0x273243EE", focused: "0x273243EE" },
-        { btn: "passwordField", card: "passwordFieldCard", label: "passwordFieldLabel", outline: "passwordFieldOutline", normal: "0x273243EE", focused: "0x273243EE" },
-        { btn: "saveAccountBtn", card: "saveAccountBtnCard", label: "saveAccountBtnLabel", outline: "saveAccountBtnOutline", normal: "0x147DFFFF", focused: "0x36D9FFFF" }
+        { btn: "providerField", card: "providerFieldCard", label: "providerFieldLabel", outline: "providerFieldOutline", normal: "0x252C43EE", focused: "0x252C43EE" },
+        { btn: "usernameField", card: "usernameFieldCard", label: "usernameFieldLabel", outline: "usernameFieldOutline", normal: "0x252C43EE", focused: "0x252C43EE" },
+        { btn: "passwordField", card: "passwordFieldCard", label: "passwordFieldLabel", outline: "passwordFieldOutline", normal: "0x252C43EE", focused: "0x252C43EE" },
+        { btn: "saveAccountBtn", card: "saveAccountBtnCard", label: "saveAccountBtnLabel", outline: "saveAccountBtnOutline", normal: "0x144FFFFF", focused: "0x3668FFFF" }
     ]
     for each item in defs
         btn = m.top.findNode(item.btn)
@@ -1033,7 +1033,7 @@ sub updateAccountVisualState()
         end if
         if outline <> invalid
             outline.visible = true
-            if focused then outline.color = "0xFFD977FF" else outline.color = "0x566177FF"
+            if focused then outline.color = "0xC677FFFF" else outline.color = "0x414F77FF"
         end if
         if label <> invalid then label.color = "0xFFFFFFFF"
     end for
@@ -1068,10 +1068,10 @@ sub updateSettingsVisualState()
         label = m.top.findNode(item.label)
         focused = (btn <> invalid and btn.hasFocus())
         if card <> invalid
-            if focused then card.color = "0xF1F3F7FF" else card.color = "0x141821E8"
+            if focused then card.color = "0xF1F3F7FF" else card.color = "0x121621E8"
         end if
         if label <> invalid
-            if focused then label.color = "0x141821FF" else label.color = "0xFFFFFFFF"
+            if focused then label.color = "0x121621FF" else label.color = "0xFFFFFFFF"
         end if
     end for
 end sub
@@ -1145,9 +1145,9 @@ sub showSettingsDialog(kind as string)
     dialog = CreateObject("roSGNode", "Dialog")
     if kind = "privacy"
         dialog.title = "Privacidade e Termos"
-        dialog.message = "O Youcinema usa um identificador local para ativação e funcionamento. Política: https://zenix.ativaapps.shop/privacy.php  ·  Termos: https://zenix.ativaapps.shop/terms.php"
+        dialog.message = "O Strimo VU usa um identificador local para ativação e funcionamento. Política: https://zenix.ativaapps.shop/privacy.php  ·  Termos: https://zenix.ativaapps.shop/terms.php"
     else
-        dialog.title = "Youcinema"
+        dialog.title = "Strimo VU"
         dialog.message = "Versão " + m.appVersion + "  ·  Plataforma Roku  ·  Chave do dispositivo: " + m.deviceKey
     end if
     dialog.buttons = ["OK"]
@@ -1192,7 +1192,7 @@ sub showInfoScreen()
     m.currentScreen = "info"
     m.infoGroup.visible = true
 
-    providerText = "Youcinema"
+    providerText = "Strimo VU"
     if m.providerName <> ""
         providerText = m.providerName
     else if m.providerId <> ""
@@ -1261,11 +1261,11 @@ sub updateOutputFormatVisualState()
         focused = (b <> invalid and b.hasFocus())
         if c <> invalid
             if focused then
-                c.color = "0x5A3137F2"
+                c.color = "0x5A314CF2"
             else if selected
-                c.color = "0x394355EA"
+                c.color = "0x2F3855EA"
             else
-                c.color = "0x263142E8"
+                c.color = "0x242C42E8"
             end if
         end if
         if check <> invalid then check.visible = selected
@@ -1328,15 +1328,15 @@ end sub
 
 sub updateHomeMenuVisualState()
     defs = [
-        { btn: "homeLive", card: "homeCardLive", label: "homeLabelLive", normal: "0x151B27EE" },
-        { btn: "homeMovies", card: "homeCardMovies", label: "homeLabelMovies", normal: "0x151B27EE" },
-        { btn: "homeSeries", card: "homeCardSeries", label: "homeLabelSeries", normal: "0x151B27EE" },
-        { btn: "homeKids", card: "homeCardKids", label: "homeLabelKids", normal: "0x1B1830EE" },
-        { btn: "homeSports", card: "homeCardSports", label: "homeLabelSports", normal: "0x151B27EE" },
-        { btn: "homeAccount", card: "homeCardAccount", label: "homeLabelAccount", normal: "0x151B27EE" },
-        { btn: "homeSettings", card: "homeCardSettings", label: "homeLabelSettings", normal: "0x151B27EE" },
-        { btn: "homeRefresh", card: "homeCardRefresh", label: "homeLabelRefresh", normal: "0x121824EE" },
-        { btn: "homeSupport", card: "homeCardSupport", label: "homeLabelSupport", normal: "0x0F241BEE" }
+        { btn: "homeLive", card: "homeCardLive", label: "homeLabelLive", normal: "0x151A27EE" },
+        { btn: "homeMovies", card: "homeCardMovies", label: "homeLabelMovies", normal: "0x151A27EE" },
+        { btn: "homeSeries", card: "homeCardSeries", label: "homeLabelSeries", normal: "0x151A27EE" },
+        { btn: "homeKids", card: "homeCardKids", label: "homeLabelKids", normal: "0x221830EE" },
+        { btn: "homeSports", card: "homeCardSports", label: "homeLabelSports", normal: "0x151A27EE" },
+        { btn: "homeAccount", card: "homeCardAccount", label: "homeLabelAccount", normal: "0x151A27EE" },
+        { btn: "homeSettings", card: "homeCardSettings", label: "homeLabelSettings", normal: "0x151A27EE" },
+        { btn: "homeRefresh", card: "homeCardRefresh", label: "homeLabelRefresh", normal: "0x121624EE" },
+        { btn: "homeSupport", card: "homeCardSupport", label: "homeLabelSupport", normal: "0x140F24EE" }
     ]
 
     for each item in defs
@@ -1345,7 +1345,7 @@ sub updateHomeMenuVisualState()
         label = m.top.findNode(item.label)
         focused = (btn <> invalid and btn.hasFocus())
         if card <> invalid
-            if focused then card.color = "0xE72035FF" else card.color = item.normal
+            if focused then card.color = "0xE720A5FF" else card.color = item.normal
         end if
         if label <> invalid
             if focused then label.color = "0xFFFFFFFF" else label.color = "0xE3E7EFFF"
@@ -1529,7 +1529,7 @@ sub resetHomeHero()
     p = m.top.findNode("homeHeroPoster")
     if p <> invalid then p.visible = false
     m.top.findNode("homeHeroBadge").text = "DESTAQUE"
-    m.top.findNode("homeHeroTitle").text = "Youcinema"
+    m.top.findNode("homeHeroTitle").text = "Strimo VU"
     m.top.findNode("homeHeroGenres").text = ""
     m.top.findNode("homeHeroFacts").text = ""
     m.top.findNode("homeHeroOverview").text = "Preparando uma seleção especial para você..."
@@ -1715,10 +1715,10 @@ sub updateHomeHeroPlayVisualState()
     label = m.top.findNode("homeHeroPlayLabel")
     focused = (btn <> invalid and btn.hasFocus())
     if border <> invalid
-        if focused then border.color = "0xF6D869FF" else border.color = "0x3AA7FFFF"
+        if focused then border.color = "0xBB69F6FF" else border.color = "0x3A6BFFFF"
     end if
     if fill <> invalid
-        if focused then fill.color = "0x147DFFFF" else fill.color = "0x087FE8FF"
+        if focused then fill.color = "0x144FFFFF" else fill.color = "0x0C43E8FF"
     end if
     if label <> invalid then label.color = "0xFFFFFFFF"
 end sub
@@ -1836,7 +1836,7 @@ sub showCatalog(section as string)
     favState = m.top.findNode("liveFavoriteState")
     if favState <> invalid
         favState.text = "★  Tecla * para favoritar"
-        favState.color = "0xFFD977FF"
+        favState.color = "0xC677FFFF"
     end if
     m.top.findNode("vodHelp").text = "OK para abrir · use Favoritar para salvar"
 
@@ -2135,7 +2135,7 @@ sub openPremiumLoginKeyboard(target as string, title as string, value as string,
         if secure then preview = maskPassword(value)
         if preview = ""
             if target = "password" then preview = "Digite sua senha" else preview = "Digite seu usuário"
-            valueNode.color = "0x7F8B9EFF"
+            valueNode.color = "0x57699EFF"
         else
             valueNode.color = "0xFFFFFFFF"
         end if
@@ -2155,7 +2155,7 @@ sub onLoginKeyboardTextChanged(event as object)
         if m.loginKeyboardSecure then preview = maskPassword(value)
         if preview = ""
             if m.loginKeyboardTarget = "password" then preview = "Digite sua senha" else preview = "Digite seu usuário"
-            valueNode.color = "0x7F8B9EFF"
+            valueNode.color = "0x57699EFF"
         else
             valueNode.color = "0xFFFFFFFF"
         end if
@@ -2360,7 +2360,7 @@ sub saveAccountWithProvider(providerId as string)
         device_key: m.deviceKey,
         platform: "roku",
         login_type: "provider",
-        playlist_name: "Youcinema",
+        playlist_name: "Strimo VU",
         slot: 1,
         provider_id: m.providerId,
         username: m.username,
@@ -5512,10 +5512,10 @@ sub updateFavoriteButtons()
         if favState <> invalid
             if fav
                 favState.text = "FAVORITO   |   Tecla *: remover"
-                favState.color = "0xFF6B75FF"
+                favState.color = "0xFF6BCEFF"
             else
                 favState.text = "Tecla *: favoritar"
-                favState.color = "0xFFD977FF"
+                favState.color = "0xC677FFFF"
             end if
         end if
     end if
@@ -6150,10 +6150,10 @@ sub updateDetailVisualState()
         if visible
             focused = btn.hasFocus()
             if outline <> invalid
-                if focused then outline.color = "0xE61F31FF" else outline.color = "0x8D99ABFF"
+                if focused then outline.color = "0xE61FA4FF" else outline.color = "0x5E71ABFF"
             end if
             if card <> invalid
-                if focused then card.color = "0xE61F31F2" else card.color = "0x111722E8"
+                if focused then card.color = "0xE61FA4F2" else card.color = "0x111522E8"
             end if
             if label <> invalid then label.color = "0xFFFFFFFF"
         end if
@@ -6549,10 +6549,10 @@ sub updateSeriesEpisodeVisualState()
         if d.btn <> invalid
             focused = d.btn.hasFocus()
             if d.outline <> invalid
-                if focused then d.outline.color = "0xE61F31FF" else d.outline.color = "0x8D99ABFF"
+                if focused then d.outline.color = "0xE61FA4FF" else d.outline.color = "0x5E71ABFF"
             end if
             if d.card <> invalid
-                if focused then d.card.color = "0xE61F31F2" else d.card.color = "0x111722E8"
+                if focused then d.card.color = "0xE61FA4F2" else d.card.color = "0x111522E8"
             end if
             if d.label <> invalid
                 d.label.text = d.btn.text
