@@ -7,13 +7,13 @@
     <script type="text/brightscript" uri="pkg:/components/ZenixPosterItem.brs" />
     <children>
         <Rectangle id="shadow" translation="[5,6]" width="200" height="254" color="0x00000077" />
-        <Rectangle id="focusFrame" width="205" height="260" color="0xF1263CFF" visible="false" />
-        <Rectangle id="card" translation="[3,3]" width="199" height="254" color="0x171E2BFF" />
+        <Rectangle id="focusFrame" width="205" height="260" color="0xF126ADFF" visible="false" />
+        <Rectangle id="card" translation="[3,3]" width="199" height="254" color="0x171C2BFF" />
         <Poster id="fallbackMark" uri="pkg:/images/intro_mark_faint.png" translation="[55,60]" width="95" height="95" loadDisplayMode="scaleToFit" opacity="0.42" />
         <Poster id="poster" translation="[3,3]" width="199" height="214" loadWidth="199" loadHeight="214" loadDisplayMode="scaleToFill" />
-        <Rectangle id="titleShade" translation="[3,181]" width="199" height="76" color="0x090D16F2" />
-        <Rectangle translation="[3,181]" width="4" height="76" color="0xF1263CFF" />
-        <Label id="stars" translation="[12,9]" width="180" height="25" color="0xF7DA4FFF" font="font:SmallBoldSystemFont" />
+        <Rectangle id="titleShade" translation="[3,181]" width="199" height="76" color="0x090C16F2" />
+        <Rectangle translation="[3,181]" width="4" height="76" color="0xF126ADFF" />
+        <Label id="stars" translation="[12,9]" width="180" height="25" color="0xB14FF7FF" font="font:SmallBoldSystemFont" />
         <Label id="title" translation="[14,201]" width="176" height="49" wrap="true" color="0xFFFFFFFF" font="font:SmallSystemFont" />
     </children>
 </component>
