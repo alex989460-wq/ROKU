@@ -6,14 +6,14 @@
     </interface>
     <script type="text/brightscript" uri="pkg:/components/ZenixProviderItem.brs" />
     <children>
-        <Rectangle id="outline" width="720" height="76" color="0x566177FF" />
-        <Rectangle id="card" translation="[2,2]" width="716" height="72" color="0x171E2AEF" />
-        <Rectangle id="accent" translation="[2,2]" width="6" height="72" color="0xE71F2CFF" opacity="0.0" />
-        <Rectangle id="avatar" translation="[20,14]" width="48" height="48" color="0xE71F2CFF" />
+        <Rectangle id="outline" width="720" height="76" color="0x414F77FF" />
+        <Rectangle id="card" translation="[2,2]" width="716" height="72" color="0x171C2AEF" />
+        <Rectangle id="accent" translation="[2,2]" width="6" height="72" color="0xE71FA4FF" opacity="0.0" />
+        <Rectangle id="avatar" translation="[20,14]" width="48" height="48" color="0xE71FA4FF" />
         <Label id="initial" translation="[20,21]" width="48" height="34" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont" />
         <Label id="title" translation="[88,12]" width="430" height="32" color="0xFFFFFFFF" font="font:MediumBoldSystemFont" />
-        <Label id="subtitle" translation="[88,43]" width="430" height="22" color="0xAEB8C8FF" font="font:SmallSystemFont" />
-        <Rectangle id="badge" translation="[565,22]" width="126" height="32" color="0x273243FF" visible="false" />
-        <Label id="badgeText" text="ATUAL" translation="[565,27]" width="126" height="22" horizAlign="center" color="0xFFD27AFF" font="font:SmallBoldSystemFont" visible="false" />
+        <Label id="subtitle" translation="[88,43]" width="430" height="22" color="0x6E84C8FF" font="font:SmallSystemFont" />
+        <Rectangle id="badge" translation="[565,22]" width="126" height="32" color="0x252C43FF" visible="false" />
+        <Label id="badgeText" text="ATUAL" translation="[565,27]" width="126" height="22" horizAlign="center" color="0xC87AFFFF" font="font:SmallBoldSystemFont" visible="false" />
     </children>
 </component>
