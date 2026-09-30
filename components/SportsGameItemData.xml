@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SportsGameItemData" extends="ContentNode">
+    <interface>
+        <field id="gameCompetition" type="string" />
+        <field id="gameCompetitionLogo" type="string" />
+        <field id="gameDateTime" type="string" />
+        <field id="gameTeam1" type="string" />
+        <field id="gameTeam1Logo" type="string" />
+        <field id="gameTeam2" type="string" />
+        <field id="gameTeam2Logo" type="string" />
+        <field id="gameScore" type="string" />
+        <field id="gameStatusText" type="string" />
+        <field id="gameChannelsText" type="string" />
+    </interface>
+</component>

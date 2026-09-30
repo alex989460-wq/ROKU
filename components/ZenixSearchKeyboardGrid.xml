@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="ZenixSearchKeyboardGrid" extends="MarkupGrid">
+    <interface>
+        <field id="exitRight" type="integer" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/ZenixSearchKeyboardGrid.brs" />
+</component>

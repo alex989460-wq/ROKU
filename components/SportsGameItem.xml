@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SportsGameItem" extends="Group">
+    <interface>
+        <field id="itemContent" type="node" onChange="itemContentChanged" />
+        <field id="focusPercent" type="float" onChange="focusChanged" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/SportsGameItem.brs" />
+    <children>
+        <Rectangle id="cardBg" width="820" height="100" color="0x0B1710FF" />
+        <Rectangle id="focusLine" width="6" height="100" color="0xB92CEBFF" visible="false" />
+        <Poster id="competitionLogo" translation="[18,18]" width="54" height="54" loadDisplayMode="scaleToFit" />
+        <Label id="competition" translation="[82,10]" width="150" height="32" color="0x9CFF5EFF" font="font:SmallSystemFont" />
+        <Label id="dateTime" translation="[82,45]" width="150" height="34" color="0xA8B5ADFF" font="font:SmallSystemFont" />
+        <Poster id="team1Logo" translation="[245,18]" width="54" height="54" loadDisplayMode="scaleToFit" />
+        <Label id="team1" translation="[310,12]" width="155" height="64" wrap="true" vertAlign="center" color="0xFFFFFFFF" font="font:SmallSystemFont" />
+        <Label id="score" translation="[470,23]" width="72" height="42" horizAlign="center" color="0xFFFFFFFF" font="font:MediumBoldSystemFont" />
+        <Poster id="team2Logo" translation="[550,18]" width="54" height="54" loadDisplayMode="scaleToFit" />
+        <Label id="team2" translation="[615,12]" width="120" height="64" wrap="true" vertAlign="center" color="0xFFFFFFFF" font="font:SmallSystemFont" />
+        <Label id="channels" translation="[735,18]" width="74" height="28" horizAlign="right" color="0xD84BFFFF" font="font:SmallSystemFont" />
+        <Label id="statusText" translation="[735,51]" width="74" height="28" horizAlign="right" color="0xA8B5ADFF" font="font:SmallSystemFont" />
+    </children>
+</component>

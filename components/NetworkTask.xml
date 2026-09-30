@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="NetworkTask" extends="Task">
+    <interface>
+        <field id="url" type="string" />
+        <field id="method" type="string" value="GET" />
+        <field id="body" type="string" />
+        <field id="tag" type="string" />
+        <field id="response" type="string" alwaysNotify="true" />
+        <field id="httpCode" type="integer" />
+        <field id="error" type="string" alwaysNotify="true" />
+        <field id="filterQuery" type="string" />
+        <field id="filterLimit" type="integer" value="0" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/NetworkTask.brs" />
+</component>
