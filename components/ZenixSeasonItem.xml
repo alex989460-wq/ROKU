@@ -6,8 +6,8 @@
     </interface>
     <script type="text/brightscript" uri="pkg:/components/ZenixSeasonItem.brs" />
     <children>
-        <Rectangle id="outline" width="162" height="54" color="0x8D99ABFF" />
-        <Rectangle id="card" translation="[2,2]" width="158" height="50" color="0x111722E8" />
+        <Rectangle id="outline" width="162" height="54" color="0x5E71ABFF" />
+        <Rectangle id="card" translation="[2,2]" width="158" height="50" color="0x111522E8" />
         <Label id="title" translation="[8,12]" width="146" height="30" horizAlign="center" color="0xFFFFFFFF" font="font:SmallBoldSystemFont" />
     </children>
 </component>
