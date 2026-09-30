@@ -7,12 +7,12 @@
     <script type="text/brightscript" uri="pkg:/components/ZenixHomeRailItem.brs" />
     <children>
         <Rectangle id="shadow" translation="[4,5]" width="148" height="163" color="0x00000088" />
-        <Rectangle id="focusFrame" width="152" height="168" color="0xF12A40FF" visible="false" />
-        <Rectangle translation="[3,3]" width="146" height="162" color="0x171D29F4" />
+        <Rectangle id="focusFrame" width="152" height="168" color="0xF12AAFFF" visible="false" />
+        <Rectangle translation="[3,3]" width="146" height="162" color="0x171B29F4" />
         <Poster id="poster" translation="[3,3]" width="146" height="162" loadDisplayMode="scaleToFill" />
         <Rectangle translation="[3,119]" width="146" height="46" color="0x070A12E8" />
-        <Rectangle translation="[3,119]" width="4" height="46" color="0xF12A40FF" />
-        <Label id="stars" translation="[10,8]" width="132" height="22" color="0xF6D94EFF" font="font:SmallSystemFont" />
+        <Rectangle translation="[3,119]" width="4" height="46" color="0xF12AAFFF" />
+        <Label id="stars" translation="[10,8]" width="132" height="22" color="0xB04EF6FF" font="font:SmallSystemFont" />
         <Label id="title" translation="[13,126]" width="128" height="34" wrap="true" color="0xFFFFFFFF" font="font:SmallSystemFont" />
     </children>
 </component>
