@@ -14,7 +14,7 @@ end sub
 sub onFocus()
     m.focus.visible = m.top.itemHasFocus
     m.focusLine.visible = m.top.itemHasFocus
-    if m.top.itemHasFocus then m.bg.color = "0xFFE18AFF" else m.bg.color = "0x202838F2"
+    if m.top.itemHasFocus then m.bg.color = "0xCE8AFFFF" else m.bg.color = "0x1F2538F2"
     if m.top.itemHasFocus then m.label.color = "0xFFFFFFFF" else m.label.color = "0xE0E8E3FF"
 end sub
 
